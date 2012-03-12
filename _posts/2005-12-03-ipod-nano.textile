@@ -1,0 +1,19 @@
+---
+layout: post
+title: iPod nano
+category : personal
+tags : [ipod nano, apple]
+description: Bought my first apple device, a 2GB iPod nano.
+keywords: ipod nano, apple
+---
+
+Hell yeah :) I bought one too. And the name suits it best. It really is impossibly small. I couldn't belive my eyes when I saw it, let alone held it in my hand. At 64 grams it feels like carying next to nothing. Amazing.
+
+!/images/ipod_nano.jpg! 
+ 
+I got the "2gb black":http://www.apple.com/ipodnano/ version and this little big player has a load of "features":http://www.apple.com/ipodnano/features.html . The thing I fell in love with right away is the Click Wheel. Impossibly simple. All it takes is a few minutes to get used to it.
+
+bq. Take everything you love about iPod and shrink it. Now shrink it again. With 2GB (500 songs) and 4GB (1,000 songs) models starting at $199, the pencil-thin iPod nano packs the entire iPod experience into an impossibly small design. So small, it will take your music places you never dreamed of.
+
+The only things I'm afraid of is loosing the damn thing. Well that and the fact that they tend to get scrached up pretty quick. I heard that Apple is shipping the new ones with protecting cases to avoid law suits. But other than that this "seems":http://arstechnica.com/reviews/hardware/nano.ars/1 to be one hard nut to crack open :)
+

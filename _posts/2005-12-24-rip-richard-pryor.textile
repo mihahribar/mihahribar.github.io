@@ -1,0 +1,18 @@
+---
+layout: post
+title: RIP Richard Pryor
+category : comedy
+tags : [rip, richard pryor]
+description: One of the funniest man alive passed away earlier this month. Rest in peace Richard Pryor.
+keywords: essential php security, book review
+---
+
+!/images/richard_pryor.jpg!
+
+Just found out that earlier this month, one of the funniest man by my account had died. "Richard Pryor(Welcome To RichardPryor.com)":http://www.richardpryor.com was, as he would've said, one funny mother fu*ker. He was the first african american to make a living from telling jokes, and he did it without shame, attacking subjects like sex, drugs and racism.
+
+He had been battling multiple sclerosis for the past 20 years and on December 10th he died at the age 65 of a heart attack.
+
+<iframe width="640" height="480" src="http://www.youtube.com/embed/p6IQgR4ehJY" frameborder="0" allowfullscreen></iframe>
+
+Richard, you will be sadly missed!

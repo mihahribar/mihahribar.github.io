@@ -1,0 +1,42 @@
+---
+layout: post
+title: PHP frameworks overview
+category : backend
+tags : [php, framework]
+description: A quick look at some of the available PHP frameworks.
+keywords: php frameworks
+---
+
+"PHP(PHP: Hypertext Preprocessor)":http://www.php.net is one of the most popular scripting languages around and when used properly it can become web developers best friend. Newcomers to web development are usualy drawn to PHP because the results of their work can be seen fairly quick, with little or no programming background.
+
+As tempting as writing everything yourself is, it is not always the best idea. Unless you have a complete grasp of the inner workings of the PHP core, your attempts in writing a good framework will  fail sooner or later. The popularity of PHP is so vast, that there are numerous frameworks availible, so choosing the one that suits you best becomes a problem in its own. My goal is not to convince you which framework you should be using, but rather to give you a quick overview of the ones I've chosen to cover.
+
+The following frameworks were chosen mostly on the amount of chatter heard around the PHP comunity. I've put my ear to the ground and listened to the stomping of the masses, so to speak.
+
+* "Zend Framework(Zend Framework)":http://framework.zend.com
+* "CakePHP(CakePHP : the rapid development php framework)":http://www.cakephp.org
+* "symfony(symfony - open-source PHP5 web framework)":http://www.symfony-project.com
+* "PRADO(PRADO PHP framework)":http://www.pradosoft.com
+* "PHP on TRAX(PHP on TRAX)":http://www.phpontrax.com
+* "Code Igniter(Code Igniter)":http://www.codeigniter.com
+* "Konstrukt(Konstrukt)":http://www.konstrukt.dk
+* "Qcodo(Qcodo)":http://www.qcodo.com
+
+h3. Hold on, what is a framework anyway?
+
+Lets pace ourselfs and start of slow, with a definition of what a framework actually is.
+
+bq. In software development, a framework is a defined support structure in which another software project can be organized and developed. A framework may include support programs, code libraries, a scripting language, or other software to help develop and glue together the different components of a software project.
+
+So in esence, a framework represents a layer of abstraction over a specific language, thus making our development easier, more organized and easily maintained. But taking on a framework must be thought through. On smaller projects a framework can actually get in the way of the developer, but usualy the advantages of using a framework outweigh all the cons.
+
+h3. The plan
+
+In the next couple of weeks I will be diving head first into the listed frameworks, trying to find the framework that suits me best. Along the way I will be posting my thoughts and findings on each of them, ending with a verdict and the winner in my book. Hope you will find my writings of interest and helpfull on your way towards the framework of your choosing.
+
+h3. Further reading
+
+*  "PHP framework ratings":http://www.coldscripts.com/PHP/Scripts/Programming/Framework/ 
+*  "Taking a look at ten different PHP frameworks":http://www.phpit.net/article/ten-different-php-frameworks/ 
+*  "PHP MVC Frameworks":http://www.phpwact.org/php/mvc_frameworks 
+*  "Framework introduction on Wikipedia":http://en.wikipedia.org/wiki/Framework 

@@ -1,0 +1,28 @@
+---
+layout: post
+title: Another year has come and gone
+category : personal
+tags : [personal, books, new year]
+description: It's been a big year for me. Here are some of the high points.
+keywords: new year, personal, books
+---
+
+It's been a big year for me. I got featured on a number of sites, got everything done in time for the "CSS Reboot Fall":http://www.cssreboot.com/ and got a job at "Dhimahi":http://dhimahi.com . I even got around to start watching "Futurama":http://www.imdb.com/title/tt0149460/ , and haven't stopped since :)
+
+This little blog wannabe has gotten quite a few visitors, topping out at 6118 in November (mostly due to CSS Reboot) and now has a steady flow of feed readers, even if I'm not writing much these days.
+
+h2. So what's in store for this little playground of mine in 2006
+
+Well a new redesign for sure. I don't like the current one any more (got some of the stuff wrong so it's just not the way it should be). I'll keep the old designs as well, but when and if I get inspired, I'll start working on a new design.
+
+I'll try to write some more interesting entries (probably not) and will try to update the worth a look section a bit more often (definitely not :)).
+
+*Q:* So what you're saying is that this sites primary function will become a portfolio?
+*A:* That's a very good question. Well, yeah :) I'm thinking of forcing my portfolio to become the entrie site and not the "blog", cause I don't consider myself a good blog writer :) (audience sighs in reliefe). Or at least I'll have to think about it (audience boos and throws beer cans).
+
+h2. Top of the pops ... of 2005
+
+Here is a list of books I really enjoyed. They were not all released in 2005 (come to think of it, only one was).
+
+!/images/books/web_standards_solutions.jpg!:http://www.amazon.com/gp/product/1590593812/qid=1135799907/sr=8-3/ref=pd_bbs_3/002-7636527-8645601?n=507846&s=books&v=glance !/images/books/dont_make_me_think.jpg!:http://www.amazon.com/gp/product/0789723107/qid=1135801018/sr=1-1/ref=sr_1_1/002-7636527-8645601?s=books&v=glance&n=283155 !/images/books/defensive_design_for_the_we.jpg!:http://www.amazon.com/gp/product/073571410X/qid=1135799934/sr=8-1/ref=pd_bbs_1/002-7636527-8645601?n=507846&s=books&v=glance !/images/books/the_zen_of_css_design.jpg!:http://www.amazon.com/gp/product/0321303474/qid=1135799907/sr=8-1/ref=pd_bbs_1/002-7636527-8645601?n=507846&s=books&v=glance !/images/books/designing_with_web_standard.jpg!:http://www.amazon.com/gp/product/0735712018/qid=1135799957/sr=8-1/ref=pd_bbs_1/002-7636527-8645601?n=507846&s=books&v=glance !/images/books/cascading_style_sheets.jpg!:http://www.amazon.com/gp/product/0596005253/qid=1135799974/sr=8-1/ref=pd_bbs_1/002-7636527-8645601?n=507846&s=books&v=glance
+

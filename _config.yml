@@ -2,4 +2,4 @@ permalink: /:categories/:year/:month/:title/
 exclude: ["README.md"]
 auto: true
 pygments: true
-lsi: true  
+lsi: true

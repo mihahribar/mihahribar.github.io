@@ -1,0 +1,24 @@
+---
+layout: post
+title: Announcing Unorderedlist - a local web development job board
+category : projects
+tags : [unorderedlist, jobs, job board, projects]
+description: Announcing Unorderedlist - a local web development job board
+keywords: unorderedlist, jobs, job board
+---
+
+It gives me great pleasure to announce the release of my newest creation - "unorderedlist.net":http://unorderedlist.net. For now the site will function mainly as a *local web development job board*, with other content bound to emerge soon.
+
+!/images/unorderedlist.png!
+
+This project has been a long time coming, as I have contemplated implementing a decent job board on several occasions. After recently talking things over with a few of the local developers, I decided the time is more than right.
+
+All of the job ads can be added free of charge, but for companies which feel they are in desperate need of new blood I have set up a payed service (the selected add remains on the top of the list for a month) for a small fee.
+
+Also an API is in the works which will enable users to add, fetch and show only the ads they want to display.
+
+h2. Related
+
+"Marko Mrdjenovic":http://friedcellcollective.net/outbreak/ (a local web developer and brainstorming buddy) has already jumped on the bandwagon and created a "Yahoo pipe":http://pipes.yahoo.com/pipes/pipe.run?_id=ZvKfQEgj3BGAHST7dbq02Q&_render=json to get all the jobs in a JSON feed. "More info":http://friedcellcollective.net/outbreak/2007/06/25/local-web-apps/.
+
+T-shirts with the UL (unorderedlist) logo have been designed but are currently out of stock. A new batch should be available fairly soon. For now you can "admire them on flickr":http://flickr.com/photos/mihahribar/sets/72157594277637458/.
