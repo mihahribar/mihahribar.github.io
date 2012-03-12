@@ -1,5 +1,5 @@
 permalink: /:categories/:year/:month/:title/
-exclude: ["README.md"]
+exclude: ["README.textile"]
 auto: true
 pygments: true
 lsi: true
