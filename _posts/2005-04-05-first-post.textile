@@ -1,0 +1,18 @@
+---
+layout: post
+title: First post
+category : personal
+tags : [first post]
+description: The very first post on a brand new personal portfolio.
+keywords: blog, first post
+---
+
+So much has been done, so much has yet to be done. But for what it's worth, this is the first post on this brand new personal portfolio. I've had this blog looking site on my hard drive for quite some time before I finally decided to put the whole thing online. And so "hribar.info":http://hribar.info came to life.
+
+But as I mentioned, there is still so much that needs to be done. One of the major things is the projects section, where I will present my recent and past projects. But for what its worth the core of the site is done.
+
+This is not, I repeat, not another page that will force news from around the world. If you would like news this site is related to, please follow one of the links on the right of this text. Each of them takes you to pages that I visit on a daily basis.
+
+The whole site is maintained with CMS Light, that I developed myself. It is still in its early developmnet stage and will not be made public under any kind of license, well not in the near future.
+
+Feel free to post any thoughts you might have on the site by clicking on the comments on the bottom of this page.

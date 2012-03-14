@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Thirdframestudios office photos
+title: 3FS office photos
 category : work
 tags : [work, 3fs, office]
-description: In May Thridframestudios moved into new offices. Here is how it looks.
+description: In May 3FS moved into new offices. Here is how it looks.
 keywords: 3fs, office, move
 ---
 
