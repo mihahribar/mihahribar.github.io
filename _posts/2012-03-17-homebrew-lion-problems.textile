@@ -1,0 +1,34 @@
+---
+layout: post
+title: Homebrew, Mac OSX Lion and 64 bit processor problems
+category : dev
+tags : [homebrew, lion, 64-bit, gcc]
+description: I recently switched to a new computer which meant I had to setup my development enviroment from scratch. Homebrew to the rescue ... well not quite that easy as it turned out.
+keywords: homebrew, lion, 64-bit
+---
+
+I recently switched to a new computer which meant I had to setup my development enviroment from scratch. With "Homebrew":https://github.com/mxcl/homebrew being my choice to install anything this side of the horsehead nebula I jumped at the task, which turned out not to be as easy.
+
+h2. Desired setup
+
+I don't have a very specific development enviroment. Here are some of the stuff I use on a daily basis
+
+* XCode
+* Homebrew
+* Apache, PHP & MySQL
+
+h3. Xcode
+
+XCode is not a problem, just have to download it from the Mac App Store. But before you do anything with Homebrew you have to download the Developer tools that you can find in Preferences -> Downloads. Just click download and wait for it to install.
+
+h3. Homebrew
+
+I used to build everything with the help of MacPorts, but after a few sleepless nights, angrily deleting everything numerous times, I stumbled upon Homebrew. Homebrew in its essence is a simple framework for writing installation formulas for anything you like. There is a vast repository of formulas available on github, but if you're looking to replace something the Mac OS already comes bundeled with, they _usualy_ don't include that in the main repository - you will have to check homebrew-alt for ways to replace those. The "installation":https://github.com/mxcl/homebrew/wiki/installation of Homebrew is a doddle.
+
+@/usr/bin/ruby -e "$(/usr/bin/curl -fksSL https://raw.github.com/mxcl/homebrew/master/Library/Contributions/install_homebrew.rb)"@
+
+After the script finishes run @brew doctor@ to see if your dev enviroment is ready to brew some formulae.
+
+h3. Apache, PHP and MySQL
+
+I decided against replacing Apache as the version bundled with Lion suits my needs quite well...

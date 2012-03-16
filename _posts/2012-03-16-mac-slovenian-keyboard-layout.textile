@@ -1,0 +1,24 @@
+---
+layout: post
+title: Slovenian Mac OS X keyboard layout
+category : personal
+tags : [keyboard, apple]
+description: I kept loosing the proper Slovenian Keyboard layout so I just put it up on github for safe keeping.
+keywords: keyboard, layout
+---
+
+The keyboard layout that comes with Mac OS is strange to say the least. You have to press way to many keys to add the @ (alt + shift + 2) or the € (alt + shift + 5). And the square and curly brackets are in the wrong place if you migrated from a Windows layout. So somebody from a "local apple comunity":http://www.jabuk.si/pbb/viewarticle.php?id=2169 decided to make a proper one and I took it and tweaked a bit with "Ukelele":http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele.
+
+!/images/layout-regular.png!
+
+!/images/layout-shift.png!
+
+!/images/layout-alt.png!
+
+h2. Installation
+
+To add the new keyboard clone the repository on "slo-keylayout":https://github.com/mihahribar/slo-keylayout on github, copy the @Slovensko (DE&AT).icns@ and @Slovensko (DE&AT).keylayout@ into @/Library/Keyboard Layouts/@ (I used the system wide and not the user Library), then go into Settings -> Language & Text -> Input Sources and find *Slovensko (DE/AT)*. I noticed that the new keyboard layout is not immediately taken into consideration despite selecting it, but all you need to do to make it work is to Logout and Login again.
+
+h2. Lets make it better
+
+To make it even better fork the "repository":https://github.com/mihahribar/slo-keylayout and tweek it some more. I'm sure somebody will thank you in the end.
