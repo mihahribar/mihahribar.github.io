@@ -25,7 +25,7 @@ h3. Homebrew
 
 I used to build everything with the help of MacPorts, but after a few sleepless nights, angrily deleting everything numerous times, I stumbled upon Homebrew. Homebrew in its essence is a simple framework for writing installation formulas for anything you like. There is a vast repository of formulas available on github, but if you're looking to replace something the Mac OS already comes bundeled with, they _usualy_ don't include that in the main repository - you will have to check homebrew-alt for ways to replace those. The "installation":https://github.com/mxcl/homebrew/wiki/installation of Homebrew is a doddle.
 
-@/usr/bin/ruby -e "$(/usr/bin/curl -fksSL https://raw.github.com/mxcl/homebrew/master/Library/Contributions/install_homebrew.rb)"@
+<pre>/usr/bin/ruby -e "$(/usr/bin/curl -fksSL https://raw.github.com/mxcl/homebrew/master/Library/Contributions/install_homebrew.rb)"</pre>
 
 After the script finishes run @brew doctor@ to see if your dev enviroment is ready to brew some formulae.
 

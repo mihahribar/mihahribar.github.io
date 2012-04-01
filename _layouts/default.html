@@ -1,38 +1,47 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 9]><html class="ie"><![endif]-->
+<!--[if gte IE 9]><!--><html><!--<![endif]-->
 <head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>{% if page.url == '/index.html' %}Miha Hribar{% else %}{{ page.title }} - Miha Hribar{% endif %}</title>
-   <meta name="author" content="Miha Hribar">
-   <meta name="description" content="{{ page.description }}">
-   <meta name="keywords" content="{{ page.keywords }}">
-   <link href="http://feeds.feedburner.com/hribarinfo" rel="alternate" title="Miha Hribar" type="application/atom+xml">
-   <link rel="stylesheet" href="/css/default.css" type="text/css" media="screen, projection">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{% if page.url == '/index.html' %}Miha Hribar{% else %}{{ page.title }} - Miha Hribar{% endif %}</title>
+	<meta name="author" content="Miha Hribar">
+	<meta name="description" content="{{ page.description }}">
+	<meta name="keywords" content="{{ page.keywords }}">
+	<link href="http://feeds.feedburner.com/hribarinfo" rel="alternate" title="Miha Hribar" type="application/atom+xml">
+	<script type="text/javascript" src="http://use.typekit.com/eyy0fgl.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<link rel="stylesheet" href="/css/default.css" type="text/css" media="screen, projection">
 </head>
 <body>
 
-<div class="site">
-  {% if page.url == '/index.html' %}
-  <h1><a href="/">Miha Hribar</a></h1>
-  {% else %}
-  <h2><a href="/">Miha Hribar</a></h2>
-  {% endif %}
-  <nav>
-	<a href="/archive.html">Articles</a>
-	<a href="/projects.html">Projects</a>
-	<a href="/about.html">About</a>
-  </nav>
-  
-  {{ content }}
-  
-  <section id="footer">
-    <nav>
-      &copy; <a href="http://hribar.info">Miha Hribar</a> 2012,
-	  <a href="http://twitter.com/mihahribar">@mihahribar</a>,
-	  <a href="http://github.com/mihahribar">github</a>
-    </nav>
-  </section>
-</div>
+<header>
+	{% if page.url == '/index.html' %}
+	<h1><a href="/">Miha Hribar</a></h1>
+	{% else %}
+	<h2><a href="/">Miha Hribar</a></h2>
+	{% endif %}
+	<p>CTO and Co-Founder of <a href="http://toshl.com" title="Toshl Finance">Toshl</a></p>
+	<nav>
+		<ul>
+			<li><a href="/archive.html">Articles</a></li>
+			<li><a href="/projects.html">Projects</a></li>
+			<li><a href="/tidbits.html">Tidbits</a></li>
+			<li><a href="/about.html">About</a></li>
+		</ul>
+	</nav>
+</header>
+	
+{{ content }}
+	
+<footer>
+	<ul>
+		<li>&copy; <a href="http://hribar.info">Miha Hribar</a> 2012</li>
+		<li><a href="http://twitter.com/mihahribar">@mihahribar</a></li>
+		<li><a href="http://github.com/mihahribar">github</a></li>
+	</ul>
+</footer>
 
 </body>
 </html>
