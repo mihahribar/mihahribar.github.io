@@ -1,0 +1,252 @@
+@import 'functions.less';
+
+@font-size: 16;
+@line: 24;
+@em: @font-size*1em;
+
+@column: 48;
+@gutter: 24;
+
+@import 'common.less';
+
+@colorLink: 		  #191970;
+@colorTitle: 		  #000;
+@colorText: 		  #333;
+@colorHeaderBorder:   #ddd;
+@colorCodeBorder: 	  #eaeaea;
+@colorCodeBackgorund: #f8f8f8;
+@colorFooterLink: 	  #444;
+@colorArchiveBorder:  #eaeaea;
+
+body {
+	font-family: Georgia, serif;
+	font-size: @font-size / 16*1em;
+	line-height: @line / @em;
+	margin: 0 auto;
+	max-width: @10cols;
+	color: @colorText;
+}
+
+// hide typekit badge
+body > img {
+	display: none !important;
+}
+
+p {
+	line-height: 1.4em;
+}
+
+h1, h2, h3 {
+	font-family: "adelle", serif;
+	padding: 1em 0;
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+header p a, article a, article a:visited, footer a, footer a:visited {
+	color: @colorLink;
+	text-decoration: underline;
+}
+
+time, em {
+	font-style: italic;
+}
+
+body > header h1, body > header h2 {
+	font-size: 1.9em;
+}
+
+body > header h1 a, body > header h2 a {
+	color: @colorTitle;
+}
+
+body > header p {
+	margin-top: -2em;
+}
+
+header p {
+	font-family: "adelle", serif;
+	font-size: 0.8em;
+	margin-top: -1.5em;
+	padding-bottom: 1em;
+	color: @colorText;
+}
+
+header nav {
+	border-top: 1px solid @colorHeaderBorder;
+	border-bottom: 1px solid @colorHeaderBorder;
+	padding: 0.5em 0;
+	margin-bottom: 0.5em;
+}
+
+header li {
+	display: inline;
+	padding-right: 1em;
+}
+
+header li a {
+	color: @colorText;
+	font-size: 0.9em;
+	text-decoration: none;
+	font-family: "adelle", serif;
+}
+
+article header p {
+	color: @colorText;
+}
+
+article header p a {
+	text-decoration: underline;
+}
+
+article h1 a, article h1 a:visited {
+	color: @colorTitle;
+}
+
+article h1, section h1 {
+	font-size: 1.6em;
+}
+
+article h2, section h2 {
+	font-size: 1.2em;
+}
+
+article h3, section h3 {
+	font-size: 1.1em;
+}
+
+article ul, section ul {
+	padding: 1em 0 0;
+}
+
+article li, section li {
+	list-style: disc;
+	line-height: 1.4em;
+	list-style-position: outside;
+	margin-left: 2em;
+}
+
+article code {
+	border: 1px solid @colorCodeBorder;
+	background-color: @colorCodeBackgorund;
+	margin: 0 2px;
+	padding: 0 5px;
+}
+
+article pre {
+	margin: 1em 0;
+	padding: 0.5em;
+	overflow: scroll;
+	border: 1px solid @colorCodeBorder;
+	background-color: @colorCodeBackgorund;
+}
+
+article code, article pre {
+	font-family: Courier, monospace;
+	color: @colorText;
+}
+
+article img {
+	max-width: 100%;
+}
+
+article > p {
+	padding-bottom: 0.5em;
+}
+
+aside {
+	border-top: 1px solid @colorHeaderBorder;
+	margin-top: 2em;
+	color: @colorText;
+}
+
+aside h2 {
+	font-size: 1.3em;
+	color: @colorText;
+	padding: 2em 0 1em 0;
+	border-bottom: 1px solid @colorArchiveBorder;
+}
+
+aside h3 {
+	padding: 1em 0 0.5em 0;
+}
+
+aside h3 a {
+	color: @colorText;
+	font-size: 1.1em;
+	text-decoration: underline;
+}
+
+aside em {
+	display: block;
+	font-size: 0.8em;
+	margin: -0.5em 0 0.4em 0;
+}
+
+aside li {
+	list-style: none;
+	margin-left: 0;
+}
+
+footer {
+	border-top: 1px solid @colorHeaderBorder;
+	margin-top: 1em;
+	padding: 1em 0;
+}
+
+footer li {
+	display: inline;
+	font-size: 0.9em;
+	padding-right: 0.5em;
+}
+
+footer li a, footer li a:visited, footer {
+	color: @colorFooterLink;
+}
+
+#about img {
+	float: left;
+	padding: 0.5em;
+	margin: 0 0.5em 0.5em 0;
+}
+
+#archive ul {
+	padding: 0;
+}
+
+#archive aside {
+	border: 0;
+	margin: 0;
+}
+
+#more h2 {
+	border-bottom: 0;
+}
+
+/* 320px width */
+@media screen and (min-width: 20em) {
+	body {
+		max-width: @4cols;
+	}
+	
+	header li {
+		padding-right: 0.7em;
+	}
+}
+
+/* 460px */
+@media screen and (min-width: 28.75em) {
+	body {
+		max-width: @6cols;
+	}
+}
+
+/* 768px */
+@media screen and (min-width: 48em) {
+	body {
+		max-width: @10cols;
+	}
+}

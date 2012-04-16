@@ -37,7 +37,7 @@ h3. Charset
 
 h3. Layout
 
-!/images/izidor-layout.gif(Layout results)
+!/images/izidor-layout.gif(Layout results)!
 
 h3. XHTML validation
 

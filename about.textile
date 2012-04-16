@@ -3,10 +3,13 @@ layout: default
 title: About
 ---
 
-<div id="about">
+<article id="about">
+
 h1. About
 
 !http://www.gravatar.com/avatar/0f4e496a1dd3c0166af5527febb30dc6?rating=PG&size=150! My name is Miha Hribar. I am a _professional hobbyist_, Co-Founder and CTO of "Toshl(Toshl - Making Finance Fun)":http://toshl.com and editor-in-chief of a local developer online magazine/group "razvijalec.si":http://razvijalec.si.
+
+Because I'm too lazy to keep updating two sites with current information check my profile on "Linkedin":http://www.linkedin.com/in/mihahribar.
 
 h2. Talks
 
@@ -21,6 +24,7 @@ h2. Networks
 You can find me on various trendy and not so trendy (social) networks.
 
 * "Github":https://github.com/mihahribar
+* "Linkedin":http://www.linkedin.com/in/mihahribar
 * "Twitter":https://twitter.com/mihahribar
 * "Stackoverflow":http://stackoverflow.com/users/165708/miha-hribar
 * "Facebook":https://www.facebook.com/mihahribar
@@ -28,4 +32,8 @@ You can find me on various trendy and not so trendy (social) networks.
 * "Vox.io":https://vox.io/mihahribar
 * "Slideshare":http://www.slideshare.net/mihahribar/
 
-</div>
+h2. Props
+
+This site is built, or better _staticly generated_, with "Jekyll":https://github.com/mojombo/jekyll. Full source code is available on "github.com/mihahribar/hribar.info":https://github.com/mihahribar/hribar.info and you are free to use it as you please (except for the content in the @posts@ and @images@ folder for which you must ask permission).
+
+</article>

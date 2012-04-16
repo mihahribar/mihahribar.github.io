@@ -1,0 +1,25 @@
+---
+layout: default
+title: Projects
+---
+
+<article id="projects">
+h1. Projects
+
+I'm currently not available for any side projects.
+
+h2. Toshl Finance
+
+Currently most of my days are spent working on "Toshl":https://toshl.com, a "500 Startup":http://500.co company, headquartered in Mountain View, California. Toshl started as a spinoff project from our parent company "3FS":http://3fs.si in 2009. I'm the CTO and a Co-Founder of the campany.
+
+* "Toshl Live":https://github.com/toshl/toshl-live - Example of how to track live locations using google maps. We use it to show "live sync locations":http://toshl.com/live/.
+
+h2. Editorial Template
+
+"Editorial Template":http://editorialtemplate.com is a reponsive Wordpress template designed specifically for digital magazines. I was fortunate enough to be part of the team with "Natan Nikolič":http://natannikolic.com/ and "Matjaž Korošec":http://matjazkorosec.com/, but have since moved on to focus exclusively on Toshl.
+
+h2. Razvijalec.si
+
+"Razvijalec.si":http://razvijalec.si is a local developer online magazine/group. It has been in the works for quite some time now and will hopefully go live in one form or another soon.
+	
+</article>
