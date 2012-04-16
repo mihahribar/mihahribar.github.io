@@ -235,6 +235,18 @@ footer li a, footer li a:visited, footer {
 	header li {
 		padding-right: 0.7em;
 	}
+	
+	#about img {
+		width: 6em;
+	}
+	
+	.longlist {
+		.column-count(1, 1em);
+	}
+	
+	footer li {
+		padding-right: 0.1em;
+	}
 }
 
 /* 460px */
@@ -242,11 +254,31 @@ footer li a, footer li a:visited, footer {
 	body {
 		max-width: @6cols;
 	}
+	
+	#about img {
+		width: 10em;
+	}
+	
+	.longlist {
+		.column-count(2, 1em);
+	}
+	
+	.widelist {
+		.column-count(2, 1em)
+	}
 }
 
 /* 768px */
 @media screen and (min-width: 48em) {
 	body {
 		max-width: @10cols;
+	}
+	
+	.longlist {
+		.column-count(3, 1em);
+	}
+	
+	.widelist {
+		.column-count(4, 1em)
 	}
 }

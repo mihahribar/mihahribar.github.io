@@ -6,13 +6,27 @@ title: Projects
 <article id="projects">
 h1. Projects
 
-I'm currently not available for any side projects.
+I have over 10 years of experience in buidling scalable web applications. My daily toolset usually contains a subset of the following:
+
+<ul class="longlist">
+	<li>PHP</li>
+	<li>MySQL</li>
+	<li>Objective C</li>
+	<li>Core Data</li>
+	<li>XCode</li>
+	<li>Eclipse</li>
+</ul>
 
 h2. Toshl Finance
 
 Currently most of my days are spent working on "Toshl":https://toshl.com, a "500 Startup":http://500.co company, headquartered in Mountain View, California. Toshl started as a spinoff project from our parent company "3FS":http://3fs.si in 2009. I'm the CTO and a Co-Founder of the campany.
 
-* "Toshl Live":https://github.com/toshl/toshl-live - Example of how to track live locations using google maps. We use it to show "live sync locations":http://toshl.com/live/.
+<ul class="widelist">
+	<li>"Angel List":http://angel.co/toshl</li>
+	<li>"Twitter":http://twitter.com/toshl</li>
+	<li>"Facebook":http://www.facebook.com/ToshlFinance</li>
+	<li>"Google+":https://plus.google.com/107346451756750757079</li>
+</ul>
 
 h2. Editorial Template
 

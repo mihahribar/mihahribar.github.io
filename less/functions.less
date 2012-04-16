@@ -143,3 +143,12 @@
 	background-image: -webkit-linear-gradient(@startColor, color-stop(@colorStop, @midColor), @endColor);
 	background-image: -moz-linear-gradient(@startColor, color-stop(@midColor, @colorStop), @endColor);
 }
+
+.column-count (@count, @gutter) {
+	   -moz-column-count: @count;
+	     -moz-column-gap: @gutter;
+	-webkit-column-count: @count;
+	  -webkit-column-gap: @gutter;
+	        column-count: @count;
+	          column-gap: @gutter;
+}
