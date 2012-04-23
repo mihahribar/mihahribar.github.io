@@ -1,0 +1,50 @@
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: small;
+	color: #333;
+}
+
+a {
+	color: #333;
+}
+
+a.selected {
+	font-weight: bold;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	width: 50px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#wrapper {
+	clear: left;
+}
+
+#icon {
+    width: 48px;
+    height: 48px;
+	margin-top: 20px;
+}
+
+#icon.error {
+    background: url(error.png) no-repeat;
+}
+
+#icon.notice {
+    background: url(notice.png) no-repeat;
+}
+
+#icon.success {
+    background: url(success.png) no-repeat;
+}
+
+ul {
+	list-style: none;
+}

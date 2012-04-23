@@ -11,7 +11,7 @@ With the web 2.0 boom expanding to all countries of the world (yes, even Sloveni
 
 h2. Nominees spreadsheet
 
-To make this evident I have put together a simple spreadsheet of this years nominees, checking their compliance with W3C guidelines. Every nominee was checked for:
+To make this evident I have put together a "simple spreadsheet":/projects/izidor/2007/default.html of this years nominees, checking their compliance with W3C guidelines. Every nominee was checked for:
 
 * DTD use
 * proper charset definition

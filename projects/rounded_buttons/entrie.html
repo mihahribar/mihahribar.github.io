@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<p>We've all come accross a design that dictated that the form buttons should have rounded corners (especially in the web 2.0 era). The creation of fixed length rounded corner button is second nature to any self proclaimed web deveopler, but the creation of fluid (well at least fluid inlength if not in height) rounded corners is another thing all together, and that is what I'll be talking about in this entrie.</p>
+<p>To create our illusion of fluid length rounded button I've prepared two images that we will be using.</p>
+<img src="/static/images/uploaded/Image/rounded_corners.gif" alt="The two button images created we will be using" />
+<p>But just to elaborate, I'm not talking about using fake buttons (nested <code>&lt;span&gt;</code> for instance), and then using javascript to immitate button funcionality. As we all know, that does not degrade gracfully for folks using older browsers and screenreaders. I will be using semantic XHTML instead.</p>
+<pre class="code">
+...
+&lt;form action="rounded.html" method="get"&gt;
+&lt;input type="submit" value="Submit me!" /&gt;
+&lt;/form&gt;
+...
+</pre>
+<p>The easiest way of acheiving rounded corners in our example is to add a <em>non-semantic</em> empty <code>div</code> after the submit button and the using CSS to style everything.</p>
+<pre class="code">
+input.button {
+    border: 0;
+    background: #fff url(button.gif) no-repeat;
+    height: 22px;
+    /* used to catch the buttonEnding */
+    position: relative;
+}
+
+.buttonEnding {
+    position: absolute;
+    display: inline;
+    width: 7px;
+    height: 22px;
+    background: url(end.gif) no-repeat;
+}
+</pre>
+<pre class="code">
+...
+&lt;form action="rounded.html" method="get"&gt;
+&lt;input type="submit" value="Submit me!" /&gt;
+&lt;div class="buttonEnding"&gt;&lt;/div&gt;
+&lt;/form&gt;
+...
+</pre>
+<p>All this works as intended, but I'm a XHTML perfectionist, and as such that empty <code>div</code> for me is like nails on a chalkboard. If done so we would have to add that empty <code>div</code> after all buttons that we wanted to have rounded enges. Now imagine if you will a very long form with multiple buttons. Result, more scratching on the chalkboard. There has to be a better way to do such things.</p>
+<p>And fortunately for us, there is. DOM. Here is what we'll do in plain english:</p>
+<ul>
+	<li>Find all input tags with a class "button".</li>
+	<li>Loop through them one by one.</li>
+	<li>Create new <code>div</code> elements on the fly.</li>
+	<li>Set the class "buttonEnding" to the newly created <code>div</code>.</li>
+	<li>Attach them to the DOM tree right after our buttons.</li>
+	<li>Add the function as an event so that it is executed when page loads.</li>
+</ul>
+<p>Sounds pretty straightforward. Here's how the finished javascript function looks.</p>
+<pre class="code">
+function buttonEndings() {
+	if (!document.getElementsByTagName) {
+		return false
+	}
+	
+	var buttons = getElementsByClass("button");
+	/* loop through all buttons and attach a div */
+	for (i=0; i &lt; buttons.length; i++) {
+		var div = document.createElement("div");
+		div.className = "buttonEnding";
+		insertAfter(div, buttons[i]);
+	}
+}
+
+addLoadEvent(buttonEndings);
+</pre>
+<p><a href="/static/projects/rounded_buttons/rounded.html" title="Fluid length rounded corner buttons example">This</a> seems to work in all browsers I could test in. If you happen to find a browser in wich this doesn't work as intended, please do give me a heads up through the contact form.</p>
+<p>The way I'm doing this is not perfect. There is much room for improvement. For one thing this function does not degrade  gracefully. When a user disables javascript they're greeted with buttons that have their tails clipped. One could write this a bit better and insert an empty <code>div</code> before and after our buttons, that will then hide all of our rounded parts if Javascript is disabled, but I will leave that implementation up to you. One could also make all four corners into their own separate images and attach them either using CSS pseudo classes <code>:before</code> and <code>:after</code> or again using Javascript and the DOM, but I guess that's a whole other story. All I wanted to acheive is what is in front of you right now. Fluid length buttons with rounded corners. And I don't even mind that the users with javascript disabled don't see the button ends, as it's purely presentational. </p>
+<p>You might notice that I'm using a number of well known functions that were written by well known Javascript experts. Here is a list of authors and their respectabe functions width links to more inside info on the way those functions work.</p>
+<ul>
+	<li><code>addLoadEvent</code> by <a href="http://simon.incutio.com/archive/2004/05/26/addLoadEvent" title="Simon Willison: Executing JavaScript on page load">Simon Williams</a></li>
+	<li><code>getElementsByClass</code> by <a href="http://www.dustindiaz.com/getelementsbyclass/" title="getElementsByClass">Dustin Diaz</a></li>
+	<li><code>insertAfter</code> by <a href="http://adactio.com/" title="Adactio: Jeremy Keith">Jeremy Keith</a></li>
+</ul>
+<p>If you want you can downlad the full example code <a href="/static/projects/rounded_buttons/rounded_buttons.zip" title="Download example code (rounded_buttons.zip - 5kb)">here</a>.</p>
+</body>
+</html>

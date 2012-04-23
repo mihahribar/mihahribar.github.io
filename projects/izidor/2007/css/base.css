@@ -1,0 +1,149 @@
+/*	Izidor 2007 Nominees Spreadsheet: base.css
+-----------------------------------------------------*/
+/*  
+    version:   1.0
+    author:    Miha Hribar
+	contact:   http://hribar.info
+*/
+
+/*	=COMMON
+-----------------------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, input, textarea, select, table, td {
+	font-size: 12px;
+	font-family: 'Trebuchet MS', trebuchet, sans-serif;
+}
+
+body {
+	background: #fff url(../images/bg.gif) repeat-x;
+	color: #000;
+}
+
+acronym {
+	cursor: help;
+}
+
+/*	=HEAD
+-----------------------------------------------------*/
+#head {
+	background: url(../images/izidor_top.gif) no-repeat;
+	height: 150px;
+	margin-bottom: 30px;
+}
+
+h1 {
+	background: url(../images/h1.gif) no-repeat;
+	width: 283px;
+	height: 77px;
+	text-indent: -9999px;
+	position: absolute;
+	top: 55px;
+	left: 78px;
+}
+
+h2 {
+	position: absolute;
+	right: 10px;
+	top: 115px;
+	font-size: 12px;
+}
+
+h2 a {
+	color: #bbbdbf;
+	text-decoration: none;
+}
+
+h2 a:hover {
+	text-decoration: underline;
+}
+
+/*	=INFO
+-----------------------------------------------------*/
+#info {
+	margin: 10px;
+	padding: 10px;
+	background: #f1f1f1;
+	border: 1px solid #ccc;
+	color: #666;
+}
+
+/*	=TABLE
+-----------------------------------------------------*/
+#table {
+	padding: 10px;
+}
+
+td {
+	vertical-align: top;
+	text-align: left;
+	padding: 4px;
+	border-bottom: 1px solid #eaeaea;
+	border-right: 1px solid #eaeaea;
+}
+
+tr.info td {
+	text-align: center;
+	border-bottom: 0;
+	border-right: 0;
+}
+
+th {
+	background: #eaeaea;
+	padding: 4px;
+}
+
+th.dtd {
+	width: 150px;
+}
+
+td.validation, .xhtml, .css, .rss {
+	background: #c8e5fc;
+}
+
+td.disable, .img, .js {
+	background: #d4fcc8;
+}
+
+td.accessability, .wcag, .s508 {
+	background: #fce8c8;
+}
+
+tr:hover {
+	background: #fbfcc8;
+}
+
+tr:hover td.xhtml, tr:hover td.css, tr:hover td.rss {
+	background: #c7d9fc;
+}
+
+tr:hover td.img, tr:hover td.js {
+	background: #b6feb6;
+}
+
+tr:hover td.wcag, tr:hover td.s508 {
+	background: #fddba4;
+}
+
+td strong {
+	color: red;
+}
+
+tr.info:hover {
+	background: #fff;
+}
+
+td a, #info a {
+	color: #0193d5;
+}
+
+td a:visited {
+	color: gray;
+}
+
+td a:hover {
+	color: red;
+}

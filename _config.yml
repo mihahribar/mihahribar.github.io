@@ -1,4 +1,4 @@
-permalink: /:categories/:year/:month/:title/
+permalink: /:year/:month/:title/
 exclude: ["README.textile"]
 auto: true
 pygments: true

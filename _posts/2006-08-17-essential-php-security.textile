@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Book Review - Essential PHP Security
-category : reviews
-tags : [book review, php, security]
+category: books
+tags: [book review, php, security]
 description: Essential PHP security book review.
 keywords: essential php security, book review
 ---

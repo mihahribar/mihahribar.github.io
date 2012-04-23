@@ -1,0 +1,40 @@
+body, input, select, textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 130%;
+    font-weight: normal;
+    margin: 1em;
+}
+
+form {
+    margin: 1em;
+}
+
+input.button {
+    padding-left: 5px;
+    margin-right: 10px;
+    border: 0;
+    background: #fff url(button.gif) no-repeat;
+    color: #666;
+    height: 22px;
+    /* used to catch the buttonEnding */
+    position: relative;
+    cursor: pointer;
+}
+
+.buttonEnding {
+    position: absolute;
+    display: inline;
+    margin-left: -10px;
+    width: 7px;
+    height: 22px;
+    background: url(end.gif) no-repeat;
+}
