@@ -4,7 +4,7 @@ title: Have the standards changed?
 category : frontend
 tags : [design, dimensions, web standards]
 description: It was said that 800 x 600 pixles rule is written in stone. But is it?
-keywords: new year, personal, books
+keywords: design, dimensions, web standards
 ---
 
 h2{text-decoration: line-through}. 800 x 600
