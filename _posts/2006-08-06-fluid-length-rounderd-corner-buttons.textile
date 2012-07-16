@@ -3,7 +3,7 @@ layout: post
 title: Fluid length rounded corner buttons
 category : frontend
 tags : [frontend, javascript, html]
-description: It's been a big year for me. Here are some of the high points.
+description: Let's take a look at how to create fluid length rounded corner buttons.
 keywords: rounded corner buttons, javascript, html, frontend
 ---
 

@@ -12,6 +12,8 @@ keywords: html5, css3, php, sql, ios, obj-c, javascript, web standards
 		<p><time datetime="{{ first_post.date | date:"%Y-%m-%d" }}">{{ first_post.date | date_to_string }}</time>, tags: {{ first_post.tags | join:", " }}</p>
 	</header>
 	{{ first_post.content }}
+	<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://hribar.info{{ first_post.url }}" data-text="{{ first_post.title }}" data-via="mihahribar" data-lang="en" data-count="horizontal">Tweet</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </article>
 
 <aside id="more">
