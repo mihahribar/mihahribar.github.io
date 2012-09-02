@@ -4,7 +4,7 @@ title: Startups and faster websites
 category : optimize
 tags : [startup, performance, toshl]
 description: After examining some of the up and coming startup websites I think we need to revisit on how to make faster websites.
-keywords: faster websites, toshl, apache, etag, yslow
+keywords: startups, faster websites, toshl, apache, etag, yslow
 ---
 
 Let's face it, running a startup is hard. There are a million things to think about and just as many things can go wrong on a daily basis. Even if you manage to launch your product it will most probably be a flop the first time around. But that doesn't mean _your website_ should be a flop - it is after all the face of your business.

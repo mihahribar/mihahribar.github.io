@@ -1,0 +1,46 @@
+---
+layout: post
+title: Native, hybrid or a web app?
+category : advice
+tags : [native, hybrid, web app]
+description: Bootstraping a startup? Read this before you start building your native app.
+keywords: native, hybrid, web app, startup
+---
+
+Let's imagine you just started your company, your idea is solid, the space you are trying to disrupt is sexy enough to attract VC money. Your product will have to run on mobile phones and will share the data with your website. Your instinct might be to get started right away on a native mobile app. *Don't.*
+
+Here is my advice.
+
+h2. First build an web app
+
+!(left)/images/html5.png(HTML5 logo)! HTML5 has come a long way lately and for an up an coming startup this presents the perfect playground. Create an HTML app, if need be, package it in a native app and ship. As soon as possible. _If you are not ashamed of your product when you ship, you shipped too late._
+
+Make it _responsive_ right from the start so you are ready for any device that might come to your awesome site. Focusing on the web app enables you to iterate over your features quickly and most important - you are able to fix bugs faster. When you have your <acrony title="Minimum Viable Product">MVP</acronym> you should already have users, which brings me to my second point.
+
+h2. Ask for advice as often as you can
+
+Ask your users for their input from within the app. See which parts of the system they are using and how they are using the provided tools. Use "Google Analytics":http://www.google.com/analytics/ to track almost everything users do, you might just find something about your product you didn't even know it could do. Or that you spent an incredible amount of time on a feature nobody uses. Most of the things you can do on Twitter today is something the users figured out on their own and their development team picked up on and integrated it in the system. _Learn from your users._
+
+h2. Native
+
+Only when you have a complete set of features start building native apps. Now as we stand today, hybrid apps like Facebook and Linkedin just feel a bit sluggish to me. So my advice is to go for a full-on native app instead. It will complicate your development process, but you want happy users, so make it native.
+
+First platform to go for is iOS. Create a beautifully designed app that will wow users and make Android users want it on their platform. You might argue why not start with Android instead - well this in fact is a personal preference. And currently nothing says sexy like an iOS app.
+
+At the same time make sure your HTML app work offline - using HTML5 local storage APIs. I love the idea of thinking of your website as just another device - it could even talk to the same set of APIs as the devices do. It just feels right, and it gets you ready for web app stores which opens up another distribution channel - "Google Chrome web store":https://chrome.google.com/webstore/.
+
+So now you have a native iOS app and a responsive web app that works offline. Time to give Android a shot. But don't support old Android versions, start with the latest SDK and start from there. You will love yourself later for doing this early on when you are forced to support more and more Android versions in a fragmented environment. Nobody want's that headache when you are just starting your startup.
+
+!/images/ios-android-chrome-store.png(iOS + Android + Google Chrome Store)!
+
+h2. Other platforms
+
+So far you have three distribution channels for your app: iOS, Android and Google Chrome Web Store. Time to check what else is out there. I'd like to think Windows Phone will become a major player, once they get "their shit together":https://toshl.com/blog/why-publishing-on-the-windows-phone-marketplace-is-like-walking-barefoot-on-broken-glass/, and by the time your make all of the apps we will know which platform Nokia will be using (Windows Phone, Symbian, Meego, Maemo or will it be something else). In Europe and BRIC they are still a major player and worth keeping an eye on. But platforms like Bada, Tizen and others are too risky to run in head first.
+
+h2. Open source
+
+!(right)/images/github.png(Github)! The last step is to open the API and see what others will come up with on their own. Build a community around your app. Share code on "github":https://github.com and contribute to open source projects you used in your development process to build your awesome product. This will establish you as the leader in your space.
+
+h2. Conclusion
+
+The given example might be a bit contrived, but I think the idea is solid. Start slow, focus on one platform and iterate as fast as possible. Ask your users for their input, be polite when critiqued and make wise decisions regarding mobile platforms.
