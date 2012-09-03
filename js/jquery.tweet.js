@@ -3,7 +3,7 @@ $(document).ready(function(){
         username: "mihahribar",
         join_text: null,
         avatar_size: null,
-        count: 4,
+        count: 10,
         auto_join_text_default: null,
         auto_join_text_ed: null,
         auto_join_text_ing: null,
@@ -86,19 +86,19 @@ $(document).ready(function(){
       var relative_to = (arguments.length > 1) ? arguments[1] : new Date();
       var delta = parseInt((relative_to.getTime() - parsed_date) / 1000);
       if(delta < 60) {
-      return 'manj kot minuto nazaj';
+      return 'less than a minute ago';
       } else if(delta < 120) {
-      return 'pribliÅ¾no minuto nazaj';
+      return 'about a minute ago';
       } else if(delta < (45*60)) {
-      return (parseInt(delta / 60)).toString() + ' minut nazaj';
+      return (parseInt(delta / 60)).toString() + ' minutes ago';
       } else if(delta < (90*60)) {
-      return 'pribliÅ¾no eno uro nazaj';
+      return 'about an hour ago';
       } else if(delta < (24*60*60)) {
-      return 'pribliÅ¾no ' + (parseInt(delta / 3600)).toString() + ' ur nazaj';
+      return 'about ' + (parseInt(delta / 3600)).toString() + ' hours ago';
       } else if(delta < (48*60*60)) {
-      return '1 dan nazaj';
+      return '1 day ago';
       } else {
-      return (parseInt(delta / 86400)).toString() + ' dni nazaj';
+      return (parseInt(delta / 86400)).toString() + ' days ago';
       }
     }
 
