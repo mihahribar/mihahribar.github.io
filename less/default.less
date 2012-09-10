@@ -129,6 +129,10 @@ article li, section li {
 	margin-left: 2em;
 }
 
+article ol li, section ol li {
+	list-style: decimal;
+}
+
 article code {
 	border: 1px solid @colorCodeBorder;
 	background-color: @colorCodeBackgorund;
@@ -159,7 +163,9 @@ article > p {
 
 article blockquote {
 	color: #888;
-	padding: 0 0 1em 1em;
+	padding: 0 0 0 1em;
+	margin: 0 0 1em 0;
+	border-left: 0.3em solid #ccc;
 }
 
 article img.left {
