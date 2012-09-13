@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Book review - Running Lean
+title: Running Lean
 category : book review
 tags : [book review, running lean, startup]
 description: The book Running Lean will help you get from an idea to a bonafide startup. It's not gonna be easy, but this book just might make it easier on you.

@@ -4,23 +4,17 @@ title: Archive
 ---
 
 <section id="archive">
-  <h1>Archive</h1>
-  {% assign first_post = site.posts.last %}
-  <p>I've been writing since {{ first_post.date | date:"%Y" }} and have thus far written posts on various categories.</p>
-  <aside>
   {% for year in site.postsbyyear %}
   	{% for month in year.months %}
-	  <h2>{{ month.name }} {{ year.number }}</h2>
+	  <h1>{{ month.name }} {{ year.number }}</h1>
 	  <ul>
 	  	{% for post in month.posts %}
 	  	<li>
-		  	<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-		  	<em><time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date_to_string }}</time>, tags: {{ post.tags | join:", " }}</em>
+		  	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 		  	<p>{{ post.description }}</p>
 	  	</li>
 	  	{% endfor %}
 	  </ul>
 	{% endfor %}
   {% endfor %}
-  </aside>
 </section>

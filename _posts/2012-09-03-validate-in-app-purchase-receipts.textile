@@ -38,6 +38,6 @@ Having the receipt "verified server-side":https://developer.apple.com/library/ma
 * Make sure the information returned from validation matches the information in the SKPayment object - check that the @product_id@ is one you are expecting.
 * Make sure the new transactions have a unique @transaction_id@. This step is required if the hack is modified for your application and the restorable payment is one that was in fact captured by your application.
 
-h3. Conclusion
+h2. Conclusion
 
 Since it will take a couple of years before all iOS 5.x versions are gone from this world, SSL verification will remain a key for preventing this hack on the client side and keeping track of the @product_id@ and @tranaction_id@ on the server side.

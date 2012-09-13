@@ -9,9 +9,10 @@
 
 @import 'common.less';
 
-@colorLink: 		  #191970;
-@colorTitle: 		  #000;
-@colorText: 		  #333;
+@colorLink: 					#191970;
+@colorTitle: 					#000;
+@colorText: 					#333;
+@colorFaded:					#aaa;
 @colorHeaderBorder:   #ddd;
 @colorCodeBorder: 	  #eaeaea;
 @colorCodeBackgorund: #f8f8f8;
@@ -19,7 +20,7 @@
 @colorArchiveBorder:  #eaeaea;
 
 body {
-	font-family: Georgia, serif;
+	font-family: "adelle", serif;
 	font-size: @font-size / 16*1em;
 	line-height: @line / @em;
 	margin: 0 auto;
@@ -32,14 +33,14 @@ body > img {
 	display: none !important;
 }
 
-p {
-	line-height: 1.4em;
+p, li {
+	line-height: 1.8em;
 }
 
 h1, h2, h3 {
-	font-family: "adelle", serif;
 	padding: 1em 0;
 	font-weight: normal;
+	line-height: 1.3em;
 }
 
 a {
@@ -55,47 +56,14 @@ time, em {
 	font-style: italic;
 }
 
-body > header h1, body > header h2 {
-	font-size: 1.9em;
-}
-
-body > header h1 a, body > header h2 a {
-	color: @colorTitle;
-}
-
-body > header p {
-	margin-top: -2em;
-}
-
 header p {
-	font-family: "adelle", serif;
-	font-size: 0.8em;
-	margin-top: -1.5em;
-	padding-bottom: 1em;
-	color: @colorText;
+	font-size: 1em;
+	padding: 0.6em 0 1em 0;
+	color: @colorFaded;
 }
 
-header nav {
-	border-top: 1px solid @colorHeaderBorder;
-	border-bottom: 1px solid @colorHeaderBorder;
-	padding: 0.5em 0;
-	margin-bottom: 0.5em;
-}
-
-header li {
-	display: inline;
-	padding-right: 1em;
-}
-
-header li a {
-	color: @colorText;
-	font-size: 0.9em;
-	text-decoration: none;
-	font-family: "adelle", serif;
-}
-
-article header p {
-	color: @colorText;
+header p a, header p a:visited {
+	color: @colorFaded;
 }
 
 article header p a {
@@ -107,15 +75,19 @@ article h1 a, article h1 a:visited {
 }
 
 article h1, section h1 {
-	font-size: 1.6em;
+	font-size: 2.5em;
+	padding: 1em 0 0.2em 0;
+	border-bottom: 2px dashed @colorHeaderBorder;
 }
 
 article h2, section h2 {
-	font-size: 1.2em;
+	font-size: 1.7em;
+	padding-bottom: 0.5em;
 }
 
 article h3, section h3 {
-	font-size: 1.1em;
+	font-size: 1.4em;
+	padding-bottom: 0.5em;
 }
 
 article ul, section ul {
@@ -124,9 +96,9 @@ article ul, section ul {
 
 article li, section li {
 	list-style: disc;
-	line-height: 1.4em;
 	list-style-position: outside;
 	margin-left: 2em;
+	padding-bottom: 0.5em;
 }
 
 article ol li, section ol li {
@@ -211,7 +183,7 @@ aside li {
 }
 
 footer {
-	border-top: 1px solid @colorHeaderBorder;
+	border-top: 2px dashed @colorHeaderBorder;
 	margin-top: 1em;
 	padding: 1em 0;
 }
@@ -241,8 +213,30 @@ footer li a, footer li a:visited, footer {
 	margin: 0;
 }
 
+#more li {
+	list-style: none;
+	margin: 0;
+}
+
+#more h1, #more h1 a, #more h1 a:visited {
+	color: @colorTitle;
+	text-decoration: underline;
+}
+
+#more h1 {
+	font-size: 1.6em;
+}
+
+#more p {
+	padding: 0.8em 0 0;
+}
+
 #more h2 {
 	border-bottom: 0;
+}
+
+#whoami {
+	padding-bottom: 2em;
 }
 
 /* 320px width */

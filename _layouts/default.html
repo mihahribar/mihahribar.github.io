@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; user-scalable=1;"/>
-	<title>{% if page.url == '/index.html' %}Miha Hribar{% else %}{{ page.title }} - Miha Hribar{% endif %}</title>
+	<title>{% if page.url == '/index.html' %}Miha Hribar{% else %}{{ page.title }} | Miha Hribar{% endif %}</title>
 	<meta name="author" content="Miha Hribar">
 	<meta name="description" content="{{ page.description }}">
 	<meta name="keywords" content="{{ page.keywords }}">
@@ -18,32 +18,14 @@
 	<![endif]-->
 </head>
 <body>
-
-<header>
-	{% if page.url == '/index.html' %}
-	<h1><a href="/">Miha Hribar</a></h1>
-	{% else %}
-	<h2><a href="/">Miha Hribar</a></h2>
-	{% endif %}
-	<p>Co-Founder and CTO of <a href="http://toshl.com" title="Toshl Finance">Toshl</a></p>
-	<nav>
-		<ul>
-			<li><a href="/archive.html">Articles</a></li>
-			<li><a href="/projects.html">Projects</a></li>
-			<li><a href="/tidbits.html">Tidbits</a></li>
-			<li><a href="/about.html">About</a></li>
-		</ul>
-	</nav>
-</header>
 	
 {{ content }}
 	
 <footer>
-	<ul>
-		<li>&copy; <a href="http://hribar.info">Miha Hribar</a> 2012</li>
-		<li><a href="http://twitter.com/mihahribar">@mihahribar</a></li>
-		<li><a href="http://github.com/mihahribar">github</a></li>
-	</ul>
+	<section id="whoami">
+		<h2>whoami</h2>
+		<p>Hi! I'm Miha. I <a href="https://toshl.com">work</a>. I <a href="https://github.com/mihahribar">code</a>. I <a href="https://twitter.com/mihahribar">tweet</a>. I <a href="http://passittowill.com">play</a>.</p>
+	</section>
 </footer>
 <script type="text/javascript">
 var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-1970196-1']); _gaq.push(['_trackPageview']);
