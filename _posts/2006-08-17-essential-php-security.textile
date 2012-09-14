@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Book Review - Essential PHP Security
+title: Essential PHP Security
 category: books
 tags: [book review, php, security]
 description: Essential PHP security book review.
@@ -12,20 +12,6 @@ We've all written unsecure code. Then tried to circumvent our weak security meas
 h2. 8 chapters. 30 exploits. Impossibly small
 
 "Essential PHP Security(Essential PHP Security by Chris Shiflett)":http://phpsecurity.org by "Chris Shiflett(Chris Shiflett: The PHP Blog)":http://shiflett.org brings you those ideas in a book that looks rather, well small. We've all gotten used to those big, heavy, shelf bending computer books, but this one has just 124 pages. Allow me to get a bit poetic: <q>Don't judge the book by its covers</q>, or rather by the number of pages. This book is the _essential_ reading for all <acronym title="Hypertext Preprocessor">PHP</acronym> developers, professional and hobbyist alike. It is one of those books that will not get outdated and will be referenced on a daily basis.
-
-h2. Summary of content
-
-* Chapter 1. Introduction
-* "Chapter 2. Forms and URLs(Download Chapter 2 of the book)":http://phpsecurity.org/ch02.pdf _(chapter availible for download)_
-* Chapter 3. Databases and SQL
-* "Chapter 4. Sessions and Cookies(Download Chapter 4 of the book)":http://phpsecurity.org/ch04.pdf _(chapter availible for download)_
-* Chapter 5. Includes
-* Chapter 6. Files and Commands
-* Chapter 7. Authentication and Authorization
-* Chapter 8. Shared Hosting
-* Appendix A: Configuration Directives
-* Appendix B: Functions
-* Appendix C: Cryptography
 
 h2. Conclusion
 

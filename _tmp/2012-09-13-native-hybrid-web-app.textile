@@ -11,7 +11,7 @@ Let's imagine you just started your company, your idea is solid, the space you a
 
 Here is my advice.
 
-h2. First build an web app
+h2. First build a web app
 
 !(left)/images/html5.png(HTML5 logo)! HTML5 has come a long way lately and for an up an coming startup this presents the perfect playground. Create an HTML app, if need be, package it in a native app and ship. As soon as possible. _If you are not ashamed of your product when you ship, you shipped too late._
 

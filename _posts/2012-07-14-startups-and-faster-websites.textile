@@ -33,7 +33,18 @@ h2. Gzip everything
 
 If you are running on a apache it is very simple to enable. Install @mod_deflate@ and stick this in your @.htaccess@ or @vhost@ file.
 
-<script src="https://gist.github.com/3114080.js"></script>
+<pre>
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/json
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+</pre>
 
 Gzipping generally reduces the response size by about *70%*. Make sure you don't Gzip your images as they have already been compressed. You could instead run them through "JPEGmini":http://www.jpegmini.com/ which is known to reduce the size by up to *90%* in some cases.
 
@@ -49,7 +60,11 @@ For minification we use "YUI Compressor":http://developer.yahoo.com/yui/compress
 
 This has been stated many times: _use CSS sprites_, but one trick I like even more is to embed the image inside CSS. Now this works only for certain situations (like small icons that you really don't want to put in a separate file). @Base64@ encode makes the image larger than it could be, but if embedding it means you don't have to make one request, by all means _do it_ - the embedded image will get cached together with the CSS.
 
-<script src="https://gist.github.com/3118142.js"></script>
+<pre>
+a.icon {
+  background: url(data:image/png;base64) no-repeat;
+}
+</pre>
 
 h2. Expires headers and ETags
 
@@ -57,7 +72,22 @@ Save your visitors all the extra requests by correctly setting up caching on you
 
 For apache this is fairly simple to set up. Install @mod_expires@ and stick this into @.htaccess@ or @vhost@ file and you're done.
 
-<script src="https://gist.github.com/3114128.js"></script>
+<pre>
+FileETag None
+
+ExpiresActive on
+ExpiresDefault "access 1 month"
+ExpiresByType image/jpg "access plus 1 year"
+ExpiresByType image/gif "access plus 1 year"
+ExpiresByType image/jpg "access plus 1 year"
+ExpiresByType image/jpeg "access plus 1 year"
+ExpiresByType image/png "access plus 1 year"
+ExpiresByType image/x-icon "access plus 1 year"
+ExpiresByType text/html "access plus 0 seconds"
+ExpiresByType text/css "access plus 1 year"
+ExpiresByType application/x-javascript "access plus 1 year"
+ExpiresByType application/javascript "access plus 1 year"
+</pre>
 
 This might complicate your deployment process somewhat as it now won't be enough to update the stylesheet file - browsers won't know it changed until they try to request it again. So the solution is to use versions in your external resource names (@style.1.6.css@ for instance). Just make sure you include that for all your images as well.
 
@@ -75,6 +105,6 @@ And just a note of warning, don't enable caching on your development machine so 
 
 h2. Further reading
 
-If your haven't already pick up these two books. Your users will thank you.
+If your haven't already, pick up these two books. Your users will thank you.
 
 !/images/books/high_peformance_websites.jpeg(High Performance Web Sites)!:http://shop.oreilly.com/product/9780596529307.do !/images/books/even_faster_websites.jpeg(Even Faster Web Sites)!:http://shop.oreilly.com/product/9780596522315.do

@@ -3,7 +3,7 @@ layout: post
 title: Validate your in-app purchase receipts
 category : advice
 tags : [ios, in-app purchase, hack]
-description: Be sure to validate your in-app purchase receipts. The hack seems to be more widespread than thought.
+description: Be sure to validate your in-app purchase receipts. The russian in-app purchase hack seems to be more widespread than thought.
 keywords: ios, hack, russian hack
 ---
 

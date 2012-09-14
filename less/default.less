@@ -9,7 +9,7 @@
 
 @import 'common.less';
 
-@colorLink: 					#191970;
+@colorLink: 					#7f1e23;
 @colorTitle: 					#000;
 @colorText: 					#333;
 @colorFaded:					#aaa;
@@ -26,6 +26,7 @@ body {
 	margin: 0 auto;
 	max-width: @10cols;
 	color: @colorText;
+	padding: 0 2em;
 }
 
 // hide typekit badge
@@ -52,18 +53,22 @@ header p a, article a, article a:visited, footer a, footer a:visited {
 	text-decoration: underline;
 }
 
-time, em {
+em {
 	font-style: italic;
 }
 
 header p {
 	font-size: 1em;
-	padding: 0.6em 0 1em 0;
+	padding: 1.15em 0 1em 0;
 	color: @colorFaded;
 }
 
 header p a, header p a:visited {
 	color: @colorFaded;
+}
+
+article img {
+	padding: 0.5em 0;
 }
 
 article header p a {
@@ -91,36 +96,38 @@ article h3, section h3 {
 }
 
 article ul, section ul {
-	padding: 1em 0;
+	padding: 0.5em 0;
 }
 
-article li, section li {
+li {
 	list-style: disc;
 	list-style-position: outside;
 	margin-left: 2em;
 	padding-bottom: 0.5em;
 }
 
-article ol li, section ol li {
+ol li {
 	list-style: decimal;
 }
 
-article code {
-	border: 1px solid @colorCodeBorder;
+code {
+	border-top: 1px solid @colorCodeBorder;
+	border-bottom: 1px solid @colorCodeBorder;
 	background-color: @colorCodeBackgorund;
 	margin: 0 2px;
 	padding: 0 5px;
 }
 
-article pre {
+pre {
 	margin: 1em 0;
 	padding: 0.5em;
 	overflow: scroll;
 	border: 1px solid @colorCodeBorder;
 	background-color: @colorCodeBackgorund;
+	.border-radius(5px)
 }
 
-article code, article pre {
+code, pre {
 	font-family: Courier, monospace;
 	color: @colorText;
 }
@@ -133,122 +140,72 @@ article > p {
 	padding-bottom: 0.5em;
 }
 
-article blockquote {
+blockquote {
 	color: #888;
 	padding: 0 0 0 1em;
 	margin: 0 0 1em 0;
 	border-left: 0.3em solid #ccc;
 }
 
-article img.left {
+img.left {
 	float: left;
 }
 
-article img.right {
+img.right {
 	float: right;
-}
-
-aside {
-	border-top: 1px solid @colorHeaderBorder;
-	margin-top: 2em;
-	color: @colorText;
-}
-
-aside h2 {
-	font-size: 1.3em;
-	color: @colorText;
-	padding: 2em 0 1em 0;
-	border-bottom: 1px solid @colorArchiveBorder;
-}
-
-aside h3 {
-	padding: 1em 0 0.5em 0;
-}
-
-aside h3 a {
-	color: @colorText;
-	font-size: 1.1em;
-	text-decoration: underline;
-}
-
-aside em {
-	display: block;
-	font-size: 0.8em;
-	margin: -0.5em 0 0.4em 0;
-}
-
-aside li {
-	list-style: none;
-	margin-left: 0;
 }
 
 footer {
 	border-top: 2px dashed @colorHeaderBorder;
 	margin-top: 1em;
-	padding: 1em 0;
-}
-
-footer li {
-	display: inline;
-	font-size: 0.9em;
-	padding-right: 0.5em;
-}
-
-footer li a, footer li a:visited, footer {
-	color: @colorFooterLink;
+	float: left;
+	width: 100%;
+	padding-bottom: 2em;
 }
 
 #about img {
-	float: left;
-	padding: 0.5em;
-	margin: 0 0.5em 0.5em 0;
+	float: right;
+	padding: 0 0 0.5em 0.5em;
+	margin: 0 0 0.5em 0.5em;
+}
+
+#about h1, #projects h1 {
+	margin-bottom: 0.5em;
 }
 
 #archive ul {
 	padding: 0;
 }
 
-#archive aside {
-	border: 0;
-	margin: 0;
-}
-
-#more li {
-	list-style: none;
-	margin: 0;
-}
-
-#more h1, #more h1 a, #more h1 a:visited {
-	color: @colorTitle;
+#more h1 a {
+	color: @colorLink;
 	text-decoration: underline;
 }
 
-#more h1 {
-	font-size: 1.6em;
+#more li, #archive li {
+	list-style: none;
+	margin-left: 0;
 }
 
-#more p {
-	padding: 0.8em 0 0;
+#more h2 a, #archive h2 a {
+	color: @colorLink;
+	text-decoration: underline;
 }
 
-#more h2 {
-	border-bottom: 0;
+#more h2, #archive h2 {
+	padding-bottom: 0;
 }
 
 #whoami {
 	padding-bottom: 2em;
 }
 
+#notfound p {
+	padding-top: 1.15em;
+}
+
 /* 320px width */
-@media screen and (min-width: 20em) {
-	body {
-		max-width: @4cols;
-	}
-	
-	header li {
-		padding-right: 0.7em;
-	}
-	
+@media screen and (min-width: 20em) {	
 	#about img {
 		width: 6em;
 	}
@@ -256,18 +213,10 @@ footer li a, footer li a:visited, footer {
 	.longlist {
 		.column-count(1, 1em);
 	}
-	
-	footer li {
-		padding-right: 0.1em;
-	}
 }
 
 /* 460px */
 @media screen and (min-width: 28.75em) {
-	body {
-		max-width: @6cols;
-	}
-	
 	#about img {
 		width: 10em;
 	}
@@ -278,6 +227,21 @@ footer li a, footer li a:visited, footer {
 	
 	.widelist {
 		.column-count(2, 1em)
+	}
+}
+
+@media screen and (min-width: 39em) {
+	footer section {
+		min-width: 10em;
+		float: right;
+		text-align: right;
+		padding-bottom: 0;
+	}
+
+	footer section:first-child {
+		text-align: left;
+		float: left;
+		min-width: 20em;
 	}
 }
 

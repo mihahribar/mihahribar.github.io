@@ -11,7 +11,7 @@ I have over 10 years of experience in buidling scalable web applications. My dai
 <ul class="longlist">
 	<li>PHP</li>
 	<li>MySQL</li>
-	<li>Objective C</li>
+	<li>Objective-C</li>
 	<li>Core Data</li>
 	<li>XCode</li>
 	<li>Eclipse</li>
@@ -30,7 +30,7 @@ Currently most of my days are spent working on "Toshl":https://toshl.com, a "500
 
 h2. Editorial Template
 
-"Editorial Template":http://editorialtemplate.com is a reponsive Wordpress template designed specifically for digital magazines. I was fortunate enough to be part of the team with "Natan Nikolič":http://natannikolic.com/ and "Matjaž Korošec":http://matjazkorosec.com/, but have since moved on to focus exclusively on Toshl.
+"Editorial Template":http://editorialtemplate.com is a reponsive Wordpress template designed specifically for digital magazines. I was fortunate enough to be part of the team with the insanely talented "Natan Nikolič":http://natannikolic.com/ and "Matjaž Korošec":http://matjazkorosec.com/, but have since moved on to focus exclusively on Toshl.
 
 h2. Razvijalec.si
 

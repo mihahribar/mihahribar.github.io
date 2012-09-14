@@ -6,10 +6,11 @@ keywords: html5, css3, php, sql, ios, obj-c, javascript, web standards
 ---
 
 <section id="more">
+	<h1>Writings by <a href="http://hribar.info" rel="author">Miha Hribar</a>.</h1>
 	<ul> 
 		{% for post in site.posts limit:5 %}
 		<li>
-			<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 			<p>{{ post.description }}</p>
 		</li>
 		{% endfor %}

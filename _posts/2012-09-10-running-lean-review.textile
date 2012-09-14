@@ -3,7 +3,7 @@ layout: post
 title: Running Lean
 category : book review
 tags : [book review, running lean, startup]
-description: The book Running Lean will help you get from an idea to a bonafide startup. It's not gonna be easy, but this book just might make it easier on you.
+description: The book Running Lean will help you get from an idea to a sustainable business. It's not gonna be easy, but this book just might make it easier on you.
 keywords: book review, running lean, startup
 ---
 
@@ -42,5 +42,3 @@ One last thing. The author does present a viable argument against the freemium m
 h2. Conclusion
 
 If you are thinking about starting your own company, or have already launched your product, you need this book. It is a fountain of knowledge, and you might be surprised how clueless you are about your business.
-
-!/images/books/running-lean.jpeg(Running Lean: Iterate from Plan A to a Plan That Works)!:/images/books/running-lean.jpeg

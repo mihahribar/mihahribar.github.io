@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Book Review - CSS Mastery
+title: CSS Mastery
 category : books
 tags : [book review, css]
 description: CSS Mastery, written by Andy Budd of Clearleft fame, is by far one of the best CSS books I've recently had the pleasure of reading.
@@ -12,18 +12,6 @@ keywords: css mastery, book review
 The author realizes that while CSS is a relatively easy technology to learn, it is that much more difficult to master. Especially with so many different browsers, wich is why the book also contains two whole chapters devoted to finding and fixing bugs as they arise. As you might have guessed, most of the bugs and fixes revolve around Internet Explorer, from older versions to Mac versions.
 
 The final two chapters of the book are case studies of two sites hand crafted by high profile web developers "Cameron Moll":http://www.cameronmoll.com and "Simon Collison":http://www.collylogic.com.
-
-* Chapter 1: Setting the Foundations
-* Chapter 2: Visual Formatting Model Recap
-* Chapter 3: Background Images and Image Replacement
-* Chapter 4: Styling Links
-* Chapter 5: Styling Lists and Creating Nav Bars
-* Chapter 6: Styling Forms and Data Tables
-* "Chapter 7: Layout":http://www.cssmastery.com/CSSMastery-Chapter7.pdf (chapter availible for download)
-* Chapter 8: Hacks and Filters
-* Chapter 9: Bugs and Bug Fixing
-* Case Study 1: More Than Doodles
-* Case Study 2: Tuscany Luxury Resorts
 
 I tried to find a better way of convincing you that the book is well worth the read, but I belive the quote on the cover of the book says it all:
 
