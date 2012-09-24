@@ -1,0 +1,50 @@
+---
+layout: post
+title: RESTful API with sync
+category : advice
+tags : [restful, api, sync]
+description: How to include sync functionality in your RESTful API without reinventing the wheel.
+keywords: restful, api, sync
+---
+
+It seems opening your API is currently the best thing since sliced bread, and for the record, we at "Toshl":https://toshl.com are doing the same thing later this month.
+
+If your API has a lot of data it needs to send to the client, it would be rather pointless to send everything all the time. There needs to be a way for the client to inform the server that it needs only the changed data. But how to implement it?
+
+You could include a query parameter @since=timestamp@ like "Pocket":http://getpocket.com/api/ does, or add @since_id@ to your request like "Twitter":https://dev.twitter.com/docs/api/1.1/get/statuses/user_timeline does. In any case, you will leave your developers guessing how to implement such a solution for your API.
+
+Clearly, there must be a better way of doing this.
+
+h2. Add Last-Modified in your response
+
+Why not use something that the HTTP protocol already has built in? @Last-Modified@ is just what we need.
+
+bq. The Last-Modified entity-header field indicates the date and time at which the origin server believes the variant was last modified.
+-- "RFC 2616":http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.29
+
+So for example, Toshl API has an endpoint for all users expenses. The @Last-Modified@ date indicates when users expenses were last changed. If the client understands how to handle a syncing API, it will store the last modified date and send it with the next request to the same endpoint.
+
+h2. Add If-Modified-Since in your request
+
+When the server sees an @If-Modified-Since@ request header, it returns just the changes made since that time.
+
+bq. The If-Modified-Since request-header field is used with a method to make it conditional: if the requested variant has not been modified since the time specified in this field, an entity will not be returned from the server; instead, a 304 (not modified) response will be returned without any message-body.
+-- "RFC 2616":http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.25
+
+So for example, if you made a request to the expenses endpoint with the @If-Modified-Since@ header, the server would find all expenses changed since the specified date and return them as the response (instead of returning the entire expense history) along with a new @Last-Modified@ date. If the database query would yield no results, the server would respond with a 304 (Not Modified) header and an empty body.
+
+h2. What about ETag?
+
+@ETag@ can be used in combination with the @Last-Modified@ header, but don't  use it on an endpoint that would return a number of objects. Its point is to identify a specific version of an object, like a git commit can be linked to a specific hash.
+
+Instead return it in a response for a specific object (for instance to @/expenses/42@). You can omit the @Last-Modified@ header in this case, because it is usually redundant. 
+
+You could also return the @ETag@ values as part of the response for a list of objects. For instance, the response for the request to the expenses endpoint can include all object @ETags@ so the client doesn't need to query them all one by one.
+
+Another nice idea would be to use @ETag@ for performing some advanced comparisons of previous object versions, if those can be still found on the server (think diff). This can be quite useful when resolving 409 (Conflict) responses.
+
+h2. Conclusion
+
+So there you have it. A simple way of extending your RESTful API for sync support with minimum overhead on the client side. Whenever the client sees a @Last-Modified@ header in the response, the server is announcing that it supports sync. It is up to the client to include the @If-Modified-Since@ header in its next request, or to use @ETag@ to query for new objects.
+
+"Discuss it on Hacker News":http://news.ycombinator.com/item?id=4531773.

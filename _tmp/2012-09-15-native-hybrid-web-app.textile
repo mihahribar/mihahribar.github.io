@@ -13,13 +13,18 @@ Here is my advice.
 
 h2. First build a web app
 
-!(left)/images/html5.png(HTML5 logo)! HTML5 has come a long way lately and for an up an coming startup this presents the perfect playground. Create an HTML app, if need be, package it in a native app and ship. As soon as possible. _If you are not ashamed of your product when you ship, you shipped too late._
+!(right)/images/html5.png(HTML5 logo)! HTML5 has come a long way and for an up an coming startup this presents the perfect playground. The idea is to find a technology that will allow you to _ship_ quickly and then iterate as fast as possible.
 
-Make it _responsive_ right from the start so you are ready for any device that might come to your awesome site. Focusing on the web app enables you to iterate over your features quickly and most important - you are able to fix bugs faster. When you have your <acrony title="Minimum Viable Product">MVP</acronym> you should already have users, which brings me to my second point.
+bq. If you shipped your product and you’re not ashamed of it, you’ve probably shipped too late.
+-- Reid Hoffman
+
+Make it _responsive_ right from the start, so you are ready for any device that might come to your site. Focusing on the web app enables you to iterate over your features quickly and most important - you are able to fix bugs faster. When you have your MVP(Minimum Viable Product) you should already have users, which brings me to my second point.
 
 h2. Ask for advice as often as you can
 
-Ask your users for their input from within the app. See which parts of the system they are using and how they are using the provided tools. Use "Google Analytics":http://www.google.com/analytics/ to track almost everything users do, you might just find something about your product you didn't even know it could do. Or that you spent an incredible amount of time on a feature nobody uses. Most of the things you can do on Twitter today is something the users figured out on their own and their development team picked up on and integrated it in the system. _Learn from your users._
+Ask your users for their input from within the app. See which parts of the system they are using and how they are using the provided tools. Use "Google Analytics":http://www.google.com/analytics/ to track almost everything users do, you might just find something about your product you didn't even know it could do. Don't spend precious time building features nobody uses. 
+
+Most of the things you can do on Twitter today is something the users figured out on their own and their development team picked up on and integrated it in the system. _Learn from your users._
 
 h2. Native
 
@@ -39,7 +44,7 @@ So far you have three distribution channels for your app: iOS, Android and Googl
 
 h2. Open source
 
-!(right)/images/github.png(Github)! The last step is to open the API and see what others will come up with on their own. Build a community around your app. Share code on "github":https://github.com and contribute to open source projects you used in your development process to build your awesome product. This will establish you as the leader in your space.
+!(left)/images/github.png(Github)! The last step is to open the API and see what others will come up with on their own. Build a community around your app. Share code on "github":https://github.com and contribute to open source projects you used in your development process to build your awesome product. This will establish you as the leader in your space.
 
 h2. Conclusion
 

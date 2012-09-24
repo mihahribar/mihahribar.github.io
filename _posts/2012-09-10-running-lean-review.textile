@@ -3,7 +3,7 @@ layout: post
 title: Running Lean
 category : book review
 tags : [book review, running lean, startup]
-description: The book Running Lean will help you get from an idea to a sustainable business. It's not gonna be easy, but this book just might make it easier on you.
+description: The book Running Lean will help you get from an idea to a sustainable business. It is not going to be easy, but this book just might make it easier on you.
 keywords: book review, running lean, startup
 ---
 

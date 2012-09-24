@@ -3,7 +3,7 @@ layout: post
 title: Startups and faster websites
 category : optimize
 tags : [startup, performance, toshl]
-description: After examining some of the up and coming startup websites I think we need to revisit on how to make faster websites.
+description: After examining some of the up and coming startup websites I think we need to revisit how to make faster websites.
 keywords: startups, faster websites, toshl, apache, etag, yslow
 ---
 
@@ -108,3 +108,5 @@ h2. Further reading
 If your haven't already, pick up these two books. Your users will thank you.
 
 !/images/books/high_peformance_websites.jpeg(High Performance Web Sites)!:http://shop.oreilly.com/product/9780596529307.do !/images/books/even_faster_websites.jpeg(Even Faster Web Sites)!:http://shop.oreilly.com/product/9780596522315.do
+
+"Discuss it on Hacker News":http://news.ycombinator.com/item?id=4249017
