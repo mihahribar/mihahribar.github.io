@@ -41,3 +41,5 @@ If the developer doesn't mind getting the freshest response from the API every t
 h2. Problems?
 
 The proposed idea might be a stretch for some, but if you think about this problem from a purely software engineering standpoint, try to forget that the client is communicating with your API via a network. How different is this from communicating with an API over a local bus? So in this case a uniform interface is necessary. Imagine how stressful coding a driver would be if the API kept changing with each new release.
+
+"Discuss it on Hacker News":http://news.ycombinator.com/item?id=4575193 or "Reddit":http://www.reddit.com/r/programming/comments/10hz08/version_your_restful_api_responses/.

@@ -1,0 +1,3 @@
+[submodule "talks/api-state-of-the-art"]
+	path = talks/api-state-of-the-art
+	url = https://github.com/mihahribar/api-state-of-the-art.git

@@ -15,6 +15,7 @@ h2. Talks
 
 While I'm not particularly fond of public speaking, I have given a few talks on various subjects on local conferences and meetups.
 
+* <time datetime="2012-10-24">24<sup>th</sup> October 2012</time> "API - State of the art":/talks/api-state-of-the-art, Spletne urice
 * <time datetime="2009-11-14">28<sup>th</sup> November 2009</time> "Continuous Integration":http://www.slideshare.net/mihahribar/continuous-integration-2606686, Webcamp LJ
 * <time datetime="2009-05-27">27<sup>th</sup> May 2009</time> "Keširanje dinamičnih vsebin":http://phpkonferenca.si/2009/predavanje-kesiranje-dinamicnih-vsebin, PHP konferenca
 * <time datetime="2007-11-14">14<sup>th</sup> November 2007</time> "jQuery":http://www.slideshare.net/mihahribar/jquery-11996194, Spletne urice
