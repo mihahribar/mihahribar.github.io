@@ -2,4 +2,3 @@ permalink: /:year/:month/:title/
 exclude: ["README.textile"]
 auto: true
 pygments: true
-lsi: true

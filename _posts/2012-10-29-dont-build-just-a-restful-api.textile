@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Don't build just a RESTful API
+title: Don't build (just) a RESTful API
 category : api
 tags : [restful api]
 description: Building RESTful APIs is not enough anymore. My search for a better way brought me to Hypermedia APIs.
