@@ -31,12 +31,11 @@ You can find me on various trendy and not so trendy (social) networks.
 <li>"Stackoverflow":http://stackoverflow.com/users/165708/miha-hribar</li>
 <li>"Facebook":https://www.facebook.com/mihahribar</li>
 <li>"Foursquare":https://foursquare.com/mihahribar</li>
-<li>"Vox.io":https://vox.io/mihahribar</li>
 <li>"Slideshare":http://www.slideshare.net/mihahribar/</li>
 </ul>
 
 h2. Props
 
-This site is built, or better _statically generated_, with "Jekyll":https://github.com/mojombo/jekyll. What you see is my attempt at styling a blog with "Frameless grid":http://framelessgrid.com/, "LESS CSS":http://lesscss.org/ and embelished by "Typekit":http://typekit.com font "Adelle":https://typekit.com/fonts/adelle-web. Full source code is available on "github":https://github.com/mihahribar/hribar.info and you are free to use it as you please (except for the content in the @posts@ and @images@ folder for which you must ask permission).
+This site is built, or better _statically generated_, with "Jekyll":https://github.com/mojombo/jekyll. What you see is my attempt at styling a blog with "Frameless grid":http://framelessgrid.com/, "LESS CSS":http://lesscss.org/ and embelished by "Typekit":http://typekit.com font "Adelle":https://typekit.com/fonts/adelle-web. Full source code is available on "github":https://github.com/mihahribar/mihahribar.github.io and you are free to use it as you please (except for the content in the @posts@ and @images@ folder for which you must ask permission).
 
 </article>

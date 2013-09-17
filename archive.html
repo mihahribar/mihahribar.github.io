@@ -4,17 +4,13 @@ title: Archive
 ---
 
 <section id="archive">
-  {% for year in site.postsbyyear %}
-  	{% for month in year.months %}
-	  <h1>{{ month.name }} {{ year.number }}</h1>
-	  <ul>
-	  	{% for post in month.posts %}
+	<h1>Archive</h1>
+	<ul>
+		{% for post in site.posts %}
 	  	<li>
 		  	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 		  	<p>{{ post.description }}</p>
 	  	</li>
 	  	{% endfor %}
-	  </ul>
-	{% endfor %}
-  {% endfor %}
+	</ul>
 </section>
