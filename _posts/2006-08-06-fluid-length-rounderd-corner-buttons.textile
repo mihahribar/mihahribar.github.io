@@ -15,17 +15,17 @@ To create our illusion of fluid length rounded button I've prepared two images t
 
 But just to elaborate, I'm not talking about using fake buttons (nested @<span>@ for instance), and then using Javascript to immitate button funcionality. As we all know, that does not degrade gracfully for folks using older browsers and screenreaders. I will be using semantic XHTML instead.
 
-<pre>
+{% highlight html %}
 ...
 <form action="rounded.html" method="get">
 <input type="submit" value="Submit me!" />
 </form>
 ...
-</pre>
+{% endhighlight %}
 
 The easiest way of acheiving rounded corners in our example is to add a _non-semantic_ empty @div@ after the submit button and the using CSS to style everything.
 
-<pre>
+{% highlight css %}
 input.button {
     border: 0;
     background: #fff url(button.gif) no-repeat;
@@ -41,15 +41,15 @@ input.button {
     height: 22px;
     background: url(end.gif) no-repeat;
 }
-</pre>
-<pre>
+{% endhighlight %}
+{% highlight html %}
 ...
 <form action="rounded.html" method="get">
 <input type="submit" value="Submit me!" />
 <div class="buttonEnding"></div>
 </form>
 ...
-</pre>
+{% endhighlight %}
 
 All this works as intended, but I'm a XHTML perfectionist, and as such that empty div for me is like nails on a chalkboard. If done so we would have to add that empty div after all buttons that we wanted to have rounded eges. Now imagine if you will a very long form with multiple buttons. Result, more scratching on the chalkboard. There has to be a better way to do such things.
 
@@ -63,7 +63,7 @@ And fortunately for us, there is. DOM. Here is what we'll do in plain english:
 * Add the function as an event so that it is executed when page loads.
 * Sounds pretty straightforward. Here's how the finished javascript function looks.
 
-<pre>
+{% highlight js %}
 function buttonEndings() {
 	if (!document.getElementsByTagName) {
 		return false
@@ -79,7 +79,7 @@ function buttonEndings() {
 }
 
 addLoadEvent(buttonEndings);
-</pre>
+{% endhighlight %}
 
 "This":/projects/rounded_buttons/rounded.html seems to work in all browsers I could test in. If you happen to find a browser in wich this doesn't work as intended, please do give me a heads up through the contact form.
 

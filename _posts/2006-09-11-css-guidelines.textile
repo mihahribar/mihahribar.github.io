@@ -15,7 +15,7 @@ h2. Getting all browsers on the same page
 
 As you might now, different browsers tend to have their own predefined values for default font sizes and padding and margins for all elements. So to get them all on the same wave length I use a few simple rules:
 
-<pre>
+{% highlight css %}
 /* get rid of default margins/paddings */
 * {
     padding: 0;
@@ -26,7 +26,7 @@ As you might now, different browsers tend to have their own predefined values fo
 body {
     font-size: 62.5%
 }
-</pre>
+{% endhighlight %}
 
 The first rule is self explanatory. It gets rid of all the default margins and paddings, giving you equal rendering of your page on all browsers.
 
@@ -38,7 +38,7 @@ To separate my CSS into special sections I use "flags":http://www.stopdesign.com
 
 There are many articles and books out there that propagate the use of separate files for each aspect of the site. For example fonts, colors and layout are to be kept in separate files. But I tend to shy away from that. Instead I separate my code into sections according to theXHTMLdocument. I use the same order for elements as in the XHTML document.
 
-<pre>
+{% highlight html %}
 ...
 <body>
     <div id="head">...</div>
@@ -46,9 +46,9 @@ There are many articles and books out there that propagate the use of separate f
     <div id="content">...</div>
     <div id="footer">...</div>
 </body>
-</pre>
+{% endhighlight %}
 
-<pre>
+{% highlight css %}
 /* =HEAD
 ************************/
 ...
@@ -67,7 +67,7 @@ There are many articles and books out there that propagate the use of separate f
 /* =FOOTER
 ************************/
 ...
-</pre>
+{% endhighlight %}
 
 This way my CSS is structured like my XHTML, wich makes it easier finding your way around. But keeping it all in a single CSS file can generate an undesired overhead, so I separate my CSS into separate files linking to them only on the sites that need specific rules. Usually different pages use different elements, so there is no need to include those rules every time.
 
@@ -77,7 +77,7 @@ h2. Applying margins and paddings
 
 To my knowledge only IE has problems with the "box model":http://en.wikipedia.org/wiki/Internet_Explorer_box_model_bug , so to avoid differences in rendering I use a simple rule. When applying width to an element, I do not apply left/right margins and padding directly to this element (the parent), but rather to subsequent elements (the children). The same is then used for elements with a specified height, this time with top/bottom margins and paddings. This way the widths and heights in IE are calculated according to the correct box model and not the proprietary IE box model, so in esence you avoid all those box model hacks and workarounds. It is a bit tedious work, but I've found it more semantic.
 
-<pre>
+{% highlight css %}
 #container {
     /* do not apply paddings/margins to parent */
     width: 300px;
@@ -88,7 +88,7 @@ To my knowledge only IE has problems with the "box model":http://en.wikipedia.or
     padding: 0 10px;
     margin:  0 20px;
 }
-</pre>
+{% endhighlight %}
 
 h2. Cascade
 

@@ -9,15 +9,15 @@ keywords: ie bug, multi-class bug, css, html
 
 I've got a doosey to report. I recently stumbled accross an interesting and not very well documented IE bug. First let me show you the XHTML and CSS so you can be as stomped as I was. Say you have an icon that has its background changed depending on the site you are on. Say you put it inside an emptly div for some reason or another. The code would look something like this:
 
-<pre>
+{% highlight html %}
 ...
 <div id="icon" class="notice"></div>
 ...
-</pre>
+{% endhighlight %}
 
 Simple, not very semantic, but it's only for presentational purposes. You then set up you CSS so that the class of the selected div tells us wich background image to use.
 
-<pre>
+{% highlight css %}
 #icon {
     width: 52px;
     height: 52px;
@@ -34,7 +34,7 @@ Simple, not very semantic, but it's only for presentational purposes. You then s
 #icon.success {
     background: url(notice_success.gif) no-repeat;
 }
-</pre>
+{% endhighlight %}
 
 Looks about right, right? You check it in Firefox and everything is honkey dorey, that is, until you open it in IE (yeah, big surprise). It would seem that IE only knows how to show the first background image in the class list (in this case that is the error icon), and doesn't load any other. You can view the bug in action "here":/projects/multi-class_ie6_bug/error.html (obviously you have to open the example in IE to see the bug, just click on a couple of links).
 
