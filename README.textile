@@ -1,6 +1,6 @@
 h1. hribar.info
 
-This is the content of my blog which resides at "hribar.info":http://hribar.info. I used to run my site using a custom build CMS but after a couple of years of procrastination I decided to restart it and what better tool to use than "Jekyll":http://github.com/mojombo/jekyll and the "github pages":http://pages.github.com.
+This is the content of my blog which resides at "hribar.info":http://hribar.info. I used to run my site using a custom build CMS but after a couple of years of procrastination I decided to restart it and what better tool to use than "Jekyll":http://github.com/mojombo/jekyll and "github pages":http://pages.github.com.
 
 h2. Licence
 
