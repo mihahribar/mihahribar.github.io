@@ -15,9 +15,9 @@ I have over 10 years of experience in buidling scalable web applications. My dai
 	<li>MySQL</li>
 	<li>Objective-C</li>
 	<li>Ruby</li>
-	<li>XCode</li>
-	<li>Eclipse</li>
-	<li>Sublime</li>
+	<li>C++</li>
+	<li>R</li>
+	<li>Git</li>
 </ul>
 
 h2. Toshl Finance
