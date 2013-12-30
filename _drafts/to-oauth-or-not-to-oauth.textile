@@ -1,0 +1,79 @@
+---
+layout: post
+title: To OAuth or not to OAuth
+category : oauth
+tags : [oauth, oauth2]
+description: 
+keywords: oauth, oauth2, authentication, authorization
+---
+
+h2. Countermeasures
+
+* Handle-based tokens must use high entropy
+* Bind the authorization "code" to the redirect URI
+* Use short expiry time for tokens
+* The authorization server should bind every authorization "code" to the id of the respective client that initiated the end-user authorization process
+* Usage and validation of pre-registered redirect URIs
+
+h3. Clickjacking attacks
+
+For newer browsers, avoidance of iFrames can be enforced on the server side by using the X-FRAME-OPTIONS header (see [X-Frame-Options]).  This header can have two values, "DENY" and "SAMEORIGIN", which will block any framing or any framing by sites with a different origin, respectively.  The value "ALLOW-FROM" specifies a list of trusted origins that iFrames may originate from.
+
+h2. CSFR
+
+You are supposed to send special optional param 'state' - any random hash you get back by Provider in User's callback: ?code=123&state=HASH. Before adding OAuth account you MUST verify session[state] is equal params[state].
+
+* http://tools.ietf.org/html/rfc6749#section-10.12
+* http://homakov.blogspot.com/2012/07/saferweb-most-common-oauth2.html
+
+h2. "Issue Installation-Specific Client Secrets":http://tools.ietf.org/html/rfc6819#section-5.2.3.4
+
+bq. An authorization server may issue separate client identifiers and corresponding secrets to the different installations of a particular client (i.e., software package).  The effect of such an approach would be to turn otherwise "public" clients back into "confidential" clients.
+
+h2. Validate redirect endpoint
+
+bq. The client SHOULD NOT include any third-party scripts (e.g., third-party analytics, social plug-ins, ad networks) in the redirection endpoint response.
+
+Make sure to validate the application endpoint before it goes public. Make sure the application endpoint does not contain any points of failure (the endpoint should extract data and then redirect to a html page without the parameters).
+
+* http://tools.ietf.org/html/rfc6749#section-3.1.2.5
+
+h2. Validate SSL certificate
+
+Before connecting/redirecting validate SSL certificate of the domain you are connecting to (downloading and then using openssl to verify the certificate).
+
+h2. Validate each registered application
+
+Each application that registers should be checked and confirmed by the API provider. Ideally this should be done periodically. Security audit.
+
+h2. Code, access and refresh token entropy
+
+The code, access and refresh tokens should all contain a high enough level of entropy.
+
+h2. CORS
+
+* https://developer.mozilla.org/en-US/docs/HTTP/Access_control_CORS
+
+h2. Random ideas
+
+* Require User Agent
+* If agent is curl return a formatted response
+* Use the Link header to specify object relationships http://tools.ietf.org/html/rfc5988
+* Use X-RateLimit-Limit and X-RateLimit-Remaining headers to specify rate limiting, use 429 (Too Many Requests) error if over
+
+h2. Further reading
+
+* "OAuth 2.0 Threat Model and Security Considerations":http://tools.ietf.org/html/rfc6819
+* "OAuth 2.0 and the Road to Hell":http://hueniverse.com/2012/07/oauth-2-0-and-the-road-to-hell/
+* "JSON Web Token (JWT)":http://openid.net/specs/draft-jones-json-web-token-07.html
+* "OAuth2 Threat Model and Security Considerations":http://tools.ietf.org/html/rfc6819
+* "OAuth 2.0 Authorization Framework":http://tools.ietf.org/html/rfc6749
+* "HMAC-based One-time Password Algorithm":http://en.wikipedia.org/wiki/HMAC-based_One-time_Password_Algorithm
+* "How does SSL work?":http://security.stackexchange.com/questions/20803/how-does-ssl-work
+* "hashcash":http://hashcash.org/
+* "The OAuth Bible":https://github.com/Mashape/mashape-oauth/blob/master/FLOWS.md
+* "Github OAuth 2":http://developer.github.com/v3/oauth/
+* "Box OAuth 2":http://developers.box.com/oauth/
+* "Google OAuth 2 Playground":https://developers.google.com/oauthplayground/
+* "Additional HTTP Status Codes":http://tools.ietf.org/html/rfc6585
+* "JSON API":http://jsonapi.org/

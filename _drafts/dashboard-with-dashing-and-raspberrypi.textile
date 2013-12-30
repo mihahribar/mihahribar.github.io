@@ -1,0 +1,26 @@
+---
+layout: post
+title: Dashboard with dashing and Raspberry Pi
+category : dashboard
+tags : [dashboard dashing raspberrypi]
+description: How to setup your company dashboard using dashing and Raspberry Pi.
+keywords: dashboard, dashing, raspberrypi, tv
+---
+
+If you've ever visited a startup office chances are you saw their dashboard with various "KPIs":http://en.wikipedia.org/wiki/Performance_indicator. Anyone that enters can have a glance at the stats to see how your business is doing.
+
+h2. Dashing
+
+"Shopify":http://www.shopify.com opensourced their awesome dashboard framework called "dashing":http://shopify.github.io/dashing/ which they use to showcase various dashboards on tvs around the office. It's built using Sinatra, batman.js, d3 and SSE. It is very easy to set up.
+
+{% highlight bash %}
+$ gem install dashing
+{% endhighlight %}
+
+You can then setup various jobs that periodically pull stats from various locations and then push them to all your dashboards. The "github":https://github.com/Shopify/dashing repository has a list of some awesome "widgets":https://github.com/Shopify/dashing/wiki/Additional-Widgets you can use in your dashboard project.
+
+!/images/dashing-demo.png(Dashing demo dashboard)!:/images/dashing-demo.png
+
+h2. Raspberry Pi
+
+h2. TV
