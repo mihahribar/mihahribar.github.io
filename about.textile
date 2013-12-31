@@ -9,7 +9,19 @@ h1. About
 
 !http://www.gravatar.com/avatar/0f4e496a1dd3c0166af5527febb30dc6?rating=PG&size=150! My name is Miha Hribar. I am a _professional hobbyist_, Co-Founder and CTO of "Toshl(Toshl - Making Finance Fun)":http://toshl.com.
 
-Because I'm too lazy to keep updating two sites with current information check out my profile on "Linkedin":http://www.linkedin.com/in/mihahribar.
+I have over 10 years of experience in buidling scalable web applications. My daily toolset usually contains a subset of the following:
+
+<ul class="longlist">
+	<li>PHP</li>
+	<li>Java</li>
+	<li>JavaScript</li>
+	<li>MySQL</li>
+	<li>Objective-C</li>
+	<li>Ruby</li>
+	<li>C++</li>
+	<li>R</li>
+	<li>Git</li>
+</ul>
 
 h2. Talks
 
