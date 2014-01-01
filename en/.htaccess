@@ -1,9 +1,0 @@
-RewriteEngine On
-RedirectMatch 301 /en/archive/91/entrie.html /2007/01/current-state-of-the-web-in-slovenia/
-RedirectMatch 301 /en/archive/87/entrie.html /2006/09/css-guidelines/
-RedirectMatch 301 /en/archive/85/entrie.html /2006/08/essential-php-security/
-RedirectMatch 301 /en/archive/82/entrie.html /2006/08/css-mastery/
-RedirectMatch 301 /en/archive/81/entrie.html /2006/08/fluid-length-rounderd-corner-buttons/
-RedirectMatch 301 /en/archive/80/entrie.html /2006/08/ie6-multi-class-bug/
-RedirectMatch 301 /en/archive/43/entrie.html /2005/09/have-the-standards-changed/
-RedirectMatch 301 /en/(.*) /archive.html
