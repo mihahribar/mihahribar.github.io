@@ -1,0 +1,16 @@
+---
+layout: post
+title: On programming language diversity
+category : general
+tags : [language diversity]
+description: In the past month or so I wrote some code in PHP, Java, C++, Objective-C, Ruby, Javascript and R. But why are there so many programming languages? Is this language diversity hurting our progress?
+keywords: programming, language, diversity
+---
+
+In the past month or so I wrote some code in PHP, Java, C++, Objective-C, Ruby, Javascript and R. I keep a (living) list of languages I would like to try out. They move up and down the list based on the types of projects I encounter and find interesting on github.
+
+But why are there so many programming languages? Is this language diversity hurting our progress? Shouldn't we as coders all pour our collective knowledge into one language and help evolve it?
+
+* Domain specific language
+* Javascript as a new compiler target?
+* Do opensource instead of code katas

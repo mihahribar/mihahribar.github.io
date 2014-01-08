@@ -9,261 +9,283 @@
 
 @import 'common.less';
 
-@colorLink: 					#7f1e23;
-@colorTitle: 					#000;
-@colorText: 					#333;
-@colorFaded:					#aaa;
+@colorLink:           #7f1e23;
+@colorTitle:          #000;
+@colorText:           #333;
+@colorFaded:          #aaa;
 @colorHeaderBorder:   #ddd;
-@colorCodeBorder: 	  #eaeaea;
+@colorCodeBorder:     #eaeaea;
 @colorCodeBackgorund: #f8f8f8;
-@colorFooterLink: 	  #444;
+@colorFooterLink:     #444;
 @colorArchiveBorder:  #eaeaea;
+@colorTableBorder:    #eaeaea;
 
 body {
-	font-family: "adelle", serif;
-	font-size: @font-size / 16*1em;
-	line-height: @line / @em;
-	margin: 0 auto;
-	max-width: @10cols;
-	color: @colorText;
-	padding: 0 2em;
+  font-family: "adelle", serif;
+  font-size: @font-size / 16*1em;
+  line-height: @line / @em;
+  margin: 0 auto;
+  max-width: @10cols;
+  color: @colorText;
+  padding: 0 2em;
 }
 
 // hide typekit badge
 body > img {
-	display: none !important;
+  display: none !important;
 }
 
 p, li {
-	line-height: 1.8em;
+  line-height: 1.8em;
 }
 
 h1, h2, h3 {
-	padding: 1em 0;
-	font-weight: normal;
-	line-height: 1.3em;
+  padding: 1em 0;
+  font-weight: normal;
+  line-height: 1.3em;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 header p a, article a, article a:visited, footer a, footer a:visited {
-	color: @colorLink;
-	text-decoration: underline;
+  color: @colorLink;
+  text-decoration: underline;
 }
 
 em {
-	font-style: italic;
+  font-style: italic;
 }
 
 header p {
-	font-size: 1em;
-	padding: 1.15em 0 1em 0;
-	color: @colorFaded;
+  font-size: 1em;
+  padding: 1.15em 0 0 0;
+  margin-bottom: 1.5em;
+  color: @colorFaded;
 }
 
 header p a, header p a:visited {
-	color: @colorFaded;
+  color: @colorFaded;
 }
 
 article img {
-	padding: 0.5em 0;
+  padding: 0.5em 0;
 }
 
 article header p a {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 article h1 a, article h1 a:visited {
-	color: @colorTitle;
+  color: @colorTitle;
 }
 
 article h1, section h1 {
-	font-size: 2.5em;
-	padding: 1em 0 0.2em 0;
-	border-bottom: 2px dashed @colorHeaderBorder;
+  font-size: 2.5em;
+  padding: 1em 0 0.2em 0;
+  border-bottom: 2px dashed @colorHeaderBorder;
 }
 
 article h2, section h2 {
-	font-size: 1.7em;
-	padding-bottom: 0.5em;
+  font-size: 1.7em;
+  padding-bottom: 0.5em;
 }
 
 article h3, section h3 {
-	font-size: 1.4em;
-	padding-bottom: 0.5em;
+  font-size: 1.4em;
+  padding-bottom: 0.5em;
 }
 
 article ul, section ul {
-	padding: 0.5em 0;
+  padding: 0.5em 0;
+}
+
+table {
+    border-bottom: 1px solid @colorTableBorder;
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+
+tr {
+    border-top: 1px solid @colorTableBorder;
+}
+
+tr:hover {
+    background: #fffeee;
+}
+
+td {
+    vertical-align: top;
+    width: 50%;
+    padding: 1em 0;
 }
 
 li {
-	list-style: disc;
-	list-style-position: outside;
-	margin-left: 2em;
-	padding-bottom: 0.5em;
+  list-style: disc;
+  list-style-position: outside;
+  margin-left: 2em;
+  padding-bottom: 0.5em;
 }
 
 ol li {
-	list-style: decimal;
+  list-style: decimal;
 }
 
 code {
-	border-top: 1px solid @colorCodeBorder;
-	border-bottom: 1px solid @colorCodeBorder;
-	background-color: @colorCodeBackgorund;
-	margin: 0 2px;
-	padding: 0 5px;
+  border-top: 1px solid @colorCodeBorder;
+  border-bottom: 1px solid @colorCodeBorder;
+  background-color: @colorCodeBackgorund;
+  margin: 0 2px;
+  padding: 0 5px;
 }
 
 pre code {
-	border: 0;
-	margin: 0;
-	padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 pre {
-	margin: 1em 0;
-	padding: 0.5em;
-	overflow: scroll;
-	border: 1px solid @colorCodeBorder;
-	background-color: @colorCodeBackgorund;
-	.border-radius(5px)
+  margin: 1em 0;
+  padding: 0.5em;
+  overflow: scroll;
+  border: 1px solid @colorCodeBorder;
+  background-color: @colorCodeBackgorund;
+  .border-radius(5px)
 }
 
 code, pre {
-	font-family: Courier, monospace;
-	color: @colorText;
+  font-family: Courier, monospace;
+  color: @colorText;
 }
 
 article img {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 article > p {
-	padding-bottom: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 blockquote {
-	color: #888;
-	padding: 0 0 0 1em;
-	margin: 0 0 1em 0;
-	border-left: 0.3em solid #ccc;
+  color: #888;
+  padding: 0 0 0 1em;
+  margin: 0 0 1em 0;
+  border-left: 0.3em solid #ccc;
 }
 
 img.left {
-	float: left;
+  float: left;
 }
 
 img.right {
-	float: right;
+  float: right;
 }
 
 footer {
-	border-top: 2px dashed @colorHeaderBorder;
-	margin-top: 1em;
-	float: left;
-	width: 100%;
-	padding-bottom: 2em;
+  border-top: 2px dashed @colorHeaderBorder;
+  margin-top: 1em;
+  float: left;
+  width: 100%;
+  padding-bottom: 2em;
 }
 
 #about img {
-	float: right;
-	padding: 0 0 0.5em 0.5em;
-	margin: 0 0 0.5em 0.5em;
+  float: right;
+  padding: 0 0 0.5em 0.5em;
+  margin: 0 0 0.5em 0.5em;
 }
 
 #about h1, #projects h1 {
-	margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 #archive ul {
-	padding: 0;
+  padding: 0;
 }
 
 #more h1 a {
-	color: @colorLink;
-	text-decoration: underline;
+  color: @colorLink;
+  text-decoration: underline;
 }
 
 #more li, #archive li {
-	list-style: none;
-	margin-left: 0;
+  list-style: none;
+  margin-left: 0;
 }
 
 #more h2 a, #archive h2 a {
-	color: @colorLink;
-	text-decoration: underline;
+  color: @colorLink;
+  text-decoration: underline;
 }
 
 #more h2, #archive h2 {
-	padding-bottom: 0;
+  padding-bottom: 0;
 }
 
 #whoami {
-	padding-bottom: 2em;
+  padding-bottom: 2em;
 }
 
 #notfound p {
-	padding-top: 1.15em;
+  padding-top: 1.15em;
 }
 
 /* 320px width */
-@media screen and (min-width: 20em) {	
-	#about img {
-		width: 6em;
-	}
-	
-	.longlist {
-		.column-count(1, 1em);
-	}
+@media screen and (min-width: 20em) {
+  #about img {
+    width: 6em;
+  }
+
+  .longlist {
+    .column-count(1, 1em);
+  }
 }
 
 /* 460px */
 @media screen and (min-width: 28.75em) {
-	#about img {
-		width: 10em;
-	}
-	
-	.longlist {
-		.column-count(2, 1em);
-	}
-	
-	.widelist {
-		.column-count(2, 1em)
-	}
+  #about img {
+    width: 10em;
+  }
+
+  .longlist {
+    .column-count(2, 1em);
+  }
+
+  .widelist {
+    .column-count(2, 1em)
+  }
 }
 
 @media screen and (min-width: 39em) {
-	footer section {
-		min-width: 10em;
-		float: right;
-		text-align: right;
-		padding-bottom: 0;
-	}
+  footer section {
+    min-width: 10em;
+    float: right;
+    text-align: right;
+    padding-bottom: 0;
+  }
 
-	footer section:first-child {
-		text-align: left;
-		float: left;
-		min-width: 20em;
-	}
+  footer section:first-child {
+    text-align: left;
+    float: left;
+    min-width: 20em;
+  }
 }
 
 /* 768px */
 @media screen and (min-width: 48em) {
-	body {
-		max-width: @10cols;
-	}
-	
-	.longlist {
-		.column-count(3, 1em);
-	}
-	
-	.widelist {
-		.column-count(4, 1em)
-	}
+  body {
+    max-width: @10cols;
+  }
+
+  .longlist {
+    .column-count(3, 1em);
+  }
+
+  .widelist {
+    .column-count(4, 1em)
+  }
 }
 
 @import 'syntax.less';
