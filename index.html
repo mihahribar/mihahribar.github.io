@@ -7,13 +7,13 @@ keywords: restful, api, obj-c, php, javascript, startup, css, mac keyboard layou
 
 <section id="more">
 	<h1>Writings by <a href="http://miha.hribar.info" rel="author">Miha Hribar</a>.</h1>
-	<ul> 
+	<ul>
 		{% for post in site.posts limit:6 %}
 		<li>
 			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 			<p>{{ post.description }}</p>
 		</li>
 		{% endfor %}
-		<li><h2><a href="/archive.html">Archive</a> →</h2></li>
+		<li><h2><a href="/archive">Archive</a> →</h2></li>
 	</ul>
 </section>
