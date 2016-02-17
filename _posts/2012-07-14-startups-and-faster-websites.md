@@ -33,7 +33,7 @@ First install the [YSlow](http://developer.yahoo.com/yslow/) browser extension a
 
 If you are running on a apache it is very simple to enable. Install `mod_deflate` and stick this in your `.htaccess` or `vhost` file.
 
-{% highlight apache %}
+```
 AddOutputFilterByType DEFLATE text/plain
 AddOutputFilterByType DEFLATE text/html
 AddOutputFilterByType DEFLATE text/xml
@@ -44,7 +44,7 @@ AddOutputFilterByType DEFLATE application/rss+xml
 AddOutputFilterByType DEFLATE application/json
 AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE application/x-javascript
-{% endhighlight %}
+```
 
 Gzipping generally reduces the response size by about *70%*. Make sure you don't Gzip your images as they have already been compressed. You could instead run them through [JPEGmini](http://www.jpegmini.com/) which is known to reduce the size by up to *90%* in some cases.
 
@@ -72,7 +72,7 @@ Save your visitors all the extra requests by correctly setting up caching on you
 
 For apache this is fairly simple to set up. Install `mod_expires` and stick this into `.htaccess` or `vhost` file and you're done.
 
-{% highlight apache %}
+```
 FileETag None
 
 ExpiresActive on
@@ -87,7 +87,7 @@ ExpiresByType text/html [access plus 0 seconds[
 ExpiresByType text/css [access plus 1 year[
 ExpiresByType application/x-javascript [access plus 1 year[
 ExpiresByType application/javascript [access plus 1 year[
-{% endhighlight %}
+```
 
 This might complicate your deployment process somewhat as it now won't be enough to update the stylesheet file - browsers won't know it changed until they try to request it again. So the solution is to use versions in your external resource names (`style.1.6.css` for instance). Just make sure you include that for all your images as well.
 
