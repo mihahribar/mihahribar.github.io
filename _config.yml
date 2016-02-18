@@ -1,3 +1,3 @@
 permalink: /:year/:month/:title/
-exclude: ["README.textile"]
+exclude: ["README.md"]
 highlighter: rouge
