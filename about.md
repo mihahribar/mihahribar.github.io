@@ -1,31 +1,14 @@
 ---
-layout: default
+layout: about
 title: About
 ---
 
-<article id="about">
 About
 =====
 
 ![](http://www.gravatar.com/avatar/0f4e496a1dd3c0166af5527febb30dc6?rating=PG&size=150)
 My name is Miha Hribar. I am a *professional hobbyist*, Co-Founder and
-CTO of [Toshl(Toshl - Making Finance Fun)](http://toshl.com).
-
-I have over 10 years of experience in building scalable web
-applications. My daily toolset usually contains a subset of the
-following:
-
-<ul class="longlist">
-<li>PHP</li>
-<li>Java</li>
-<li>JavaScript</li>
-<li>MySQL</li>
-<li>Objective-C</li>
-<li>Ruby</li>
-<li>C++</li>
-<li>R</li>
-<li>Git</li>
-</ul>
+CTO of [Toshl](http://toshl.com).
 
 Talks
 -----
@@ -52,15 +35,13 @@ Networks
 
 You can find me on various trendy and not so trendy (social) networks.
 
-<ul class="longlist">
-<li>[Github](https://github.com/mihahribar)</li>
-<li>[Linkedin](http://www.linkedin.com/in/mihahribar)</li>
-<li>[Twitter](https://twitter.com/mihahribar)</li>
-<li>[Stackoverflow](http://stackoverflow.com/users/165708/miha-hribar)</li>
-<li>[Facebook](https://www.facebook.com/mihahribar)</li>
-<li>[Foursquare](https://foursquare.com/mihahribar)</li>
-<li>[Slideshare](http://www.slideshare.net/mihahribar/)</li>
-</ul>
+- [Github](https://github.com/mihahribar)
+- [Linkedin](http://www.linkedin.com/in/mihahribar)
+- [Twitter](https://twitter.com/mihahribar)
+- [Stackoverflow](http://stackoverflow.com/users/165708/miha-hribar)
+- [Facebook](https://www.facebook.com/mihahribar)
+- [Foursquare](https://foursquare.com/mihahribar)
+- [Slideshare](http://www.slideshare.net/mihahribar/)
 
 Props
 -----
@@ -75,6 +56,4 @@ available on
 [github](https://github.com/mihahribar/mihahribar.github.io) and you are
 free to use it as you please (except for the content in the `posts` and
 `images` folder for which you must ask permission).
-
-</article>
 
