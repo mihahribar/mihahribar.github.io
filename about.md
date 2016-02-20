@@ -7,8 +7,22 @@ About
 =====
 
 ![](http://www.gravatar.com/avatar/0f4e496a1dd3c0166af5527febb30dc6?rating=PG&size=150)
-My name is Miha Hribar. I am a *professional hobbyist*, Co-Founder and
-CTO of [Toshl](http://toshl.com).
+My name is Miha Hribar. I am a dad, husband, *professional hobbyist*, Co-Founder and
+CTO of [Toshl](http://toshl.com) (mostly in that order). I'm always tinkering with various ideas whenever I find the time. You can see a list of my public
+projects and contributions on [Github](https://github.com/mihahribar).
+
+Toshl Finance
+-------------
+
+Currently most of my days are spent working on
+[Toshl](https://toshl.com), a [500 Startup](http://500.co) company,
+headquartered in San Francisco, California and Kranj, Slovenia. I'm the
+CTO and a Co-Founder of the campany. If you need help with your finances, try it out.
+
+- [Angel List](http://angel.co/toshl)
+- [Twitter](http://twitter.com/toshl)
+- [Facebook](http://www.facebook.com/ToshlFinance)
+- [Google+](https://plus.google.com/107346451756750757079)
 
 Talks
 -----
@@ -33,7 +47,7 @@ talks on various subjects on local conferences and meetups.
 Networks
 --------
 
-You can find me on various trendy and not so trendy (social) networks.
+You can find me and say hi (or not) on various trendy and not so trendy (social) networks.
 
 - [Github](https://github.com/mihahribar)
 - [Linkedin](http://www.linkedin.com/in/mihahribar)
@@ -42,12 +56,13 @@ You can find me on various trendy and not so trendy (social) networks.
 - [Facebook](https://www.facebook.com/mihahribar)
 - [Foursquare](https://foursquare.com/mihahribar)
 - [Slideshare](http://www.slideshare.net/mihahribar/)
+- [Instagram](https://www.instagram.com/mihahribar/)
 
 Props
 -----
 
-This site is built, or better *statically generated*, with
-[Jekyll](https://github.com/mojombo/jekyll). What you see is my attempt
+This site is built, or better, *statically generated* with
+[Jekyll](https://github.com/mojombo/jekyll) and hosted on [github pages](https://pages.github.com). What you see is my attempt
 at styling a blog with [Frameless grid](http://framelessgrid.com/),
 [LESS CSS](http://lesscss.org/) and embelished by
 [Typekit](http://typekit.com) font

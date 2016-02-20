@@ -346,7 +346,7 @@ footer {
     column-gap: 1em;
   }
   .widelist,
-  #projects ul {
+  #about ul {
     -moz-column-count: 2;
     -moz-column-gap: 1em;
     -webkit-column-count: 2;
@@ -382,12 +382,20 @@ footer {
     column-gap: 1em;
   }
   .widelist,
-  #projects ul {
+  #about ul {
     -moz-column-count: 4;
     -moz-column-gap: 1em;
     -webkit-column-count: 4;
     -webkit-column-gap: 1em;
     column-count: 4;
+    column-gap: 1em;
+  }
+  #about ul:nth-of-type(2) {
+    -moz-column-count: 1;
+    -moz-column-gap: 1em;
+    -webkit-column-count: 1;
+    -webkit-column-gap: 1em;
+    column-count: 1;
     column-gap: 1em;
   }
 }
