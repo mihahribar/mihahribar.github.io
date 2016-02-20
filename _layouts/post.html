@@ -4,7 +4,7 @@ layout: default
 <article>
 	<header>
 		<h1>{{ page.title }}</h1>
-		<p>By <a href="/" rel="author">Miha Hribar</a> | <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></p>
+		<p>By <a href="/" rel="author">Miha Hribar</a> | <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time> | {% include read_time.html %}</p>
 	</header>
 	{{ content }}
 </article>
