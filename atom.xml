@@ -1,14 +1,13 @@
 ---
-layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
+
  <title>Miha Hribar</title>
- <link href="http://hribar.info/atom.xml" rel="self"/>
- <link href="http://hribar.info"/>
+ <link href="http://miha.hribar.info/atom.xml" rel="self"/>
+ <link href="http://miha.hribar.info"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://hribar.info</id>
+ <id>http://miha.hribar.info</id>
  <author>
    <name>Miha Hribar</name>
    <email>miha@hribar.info</email>
@@ -17,11 +16,11 @@ layout: null
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://hribar.info{{ post.url }}"/>
+   <link href="http://miha.hribar.info{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://hribar.info{{ post.id }}</id>
+   <id>http://miha.hribar.info{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
- 
+
 </feed>
