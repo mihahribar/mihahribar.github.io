@@ -7,7 +7,7 @@ description: Don't version your API, version your API responses.
 keywords: restful, api, response versioning
 ---
 
-In my [previous post](http://hribar.info/2012/09/restful-api-with-sync/), I discussed the idea of adding sync to your RESTful API through a predictable and an already existing interface. This time, let's take a look at how to go about versioning you API.
+In my [previous post](http://hribar.org/2012/09/restful-api-with-sync/), I discussed the idea of adding sync to your RESTful API through a predictable and an already existing interface. This time, let's take a look at how to go about versioning you API.
 
 Usually APIs are versioned through the use of URI(Uniform Resource Identifier)s, for instance:
 

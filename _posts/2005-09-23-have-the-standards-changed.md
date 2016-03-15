@@ -60,7 +60,7 @@ So what's the deal
 ------------------
 
 Well. I've signed up for the [CSS Reboot Fall
-2005](http://hribar.info/archive/13/entrie.html) and have completed the
+2005](http://hribar.org/archive/13/entrie.html) and have completed the
 basic page design. I've drawn it to be just under 800px wide, but have
 been considering making it a bit wider to let my content breathe a bit.
 And the only reason I can think of not to do so at this moment is the
