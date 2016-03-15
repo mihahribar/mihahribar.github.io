@@ -1,10 +1,10 @@
-miha.hribar.info
-================
+miha.hribar.org
+===============
 
 [![Build Status](https://travis-ci.org/mihahribar/mihahribar.github.io.png?branch=master)](https://travis-ci.org/mihahribar/mihahribar.github.io)
 
 This is the content of my blog which resides at
-[miha.hribar.info](http://miha.hribar.info). I used to run my site using
+[miha.hribar.org](http://miha.hribar.org). I used to run my site using
 a custom built CMS but after a couple of years of procrastination I
 decided to restart it and what better tool to use than
 [Jekyll](http://github.com/mojombo/jekyll) and [github
