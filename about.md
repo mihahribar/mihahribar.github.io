@@ -30,6 +30,10 @@ Talks
 While I'm not particularly fond of public speaking, I have given a few
 talks on various subjects on local conferences and meetups.
 
+-   <time datetime="2018-02-28">28<sup>th</sup> February 2018</time>
+    [Intro to Machine Learning](/talks/intro-to-ml.pdf), 3fs (Internal talk)
+-   <time datetime="2017-09-12">12<sup>th</sup> September 2017</time>
+    [Dr.Toshl, or how we learned to stop worrying and love the finance](/talks/dr.toshl.pdf), 3fs (Apple keynote event)
 -   <time datetime="2012-10-24">24<sup>th</sup> October 2012</time>
     [API - State of the art](/talks/api-state-of-the-art), Spletne urice
 -   <time datetime="2009-11-14">28<sup>th</sup> November 2009</time>
