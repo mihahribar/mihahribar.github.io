@@ -30,21 +30,21 @@ Talks
 While I'm not particularly fond of public speaking, I have given a few
 talks on various subjects on local conferences and meetups.
 
--   <time datetime="2018-02-28">28<sup>th</sup> February 2018</time>
+-   <time datetime="2018-02-28">February 28<sup>th</sup> 2018</time>
     [Intro to Machine Learning](/talks/intro-to-ml.pdf), 3fs (Internal talk)
--   <time datetime="2017-09-12">12<sup>th</sup> September 2017</time>
+-   <time datetime="2017-09-12">September 12<sup>th</sup> 2017</time>
     [Dr.Toshl, or how we learned to stop worrying and love the finance](/talks/dr.toshl.pdf), 3fs (Apple keynote event)
--   <time datetime="2012-10-24">24<sup>th</sup> October 2012</time>
+-   <time datetime="2012-10-24">October 24<sup>th</sup> 2012</time>
     [API - State of the art](/talks/api-state-of-the-art), Spletne urice
--   <time datetime="2009-11-14">28<sup>th</sup> November 2009</time>
+-   <time datetime="2009-11-14">November 28<sup>th</sup> 2009</time>
     [Continuous
     Integration](http://www.slideshare.net/mihahribar/continuous-integration-2606686),
     Webcamp LJ
--   <time datetime="2009-05-27">27<sup>th</sup> May 2009</time>
+-   <time datetime="2009-05-27">May 27<sup>th</sup> 2009</time>
     [Keširanje dinamičnih
     vsebin](http://phpkonferenca.si/2009/predavanje-kesiranje-dinamicnih-vsebin),
     PHP konferenca
--   <time datetime="2007-11-14">14<sup>th</sup> November 2007</time>
+-   <time datetime="2007-11-14">November 14<sup>th</sup> 2007</time>
     [jQuery](http://www.slideshare.net/mihahribar/jquery-11996194),
     Spletne urice
 
