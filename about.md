@@ -30,6 +30,8 @@ Talks
 While I'm not particularly fond of public speaking, I have given a few
 talks on various subjects on local conferences and meetups.
 
+-   <time datetime="2019-01-30">January 30<sup>th</sup> 2019</time>
+    [Working Remotely](/talks/remote.pdf), 3fs (Internal talk)
 -   <time datetime="2018-02-28">February 28<sup>th</sup> 2018</time>
     [Intro to Machine Learning](/talks/intro-to-ml.pdf), 3fs (Internal talk)
 -   <time datetime="2017-09-12">September 12<sup>th</sup> 2017</time>
