@@ -286,6 +286,7 @@ footer {
   float: right;
   padding: 0 0 0.5em 0.5em;
   margin: 0 0 0.5em 0.5em;
+  border-radius: 50%;
 }
 #about h1,
 #projects h1 {
