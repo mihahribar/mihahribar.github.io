@@ -7,14 +7,19 @@ About
 =====
 
 ![](http://www.gravatar.com/avatar/0f4e496a1dd3c0166af5527febb30dc6?rating=PG&size=150)
-My name is Miha Hribar. I am a dad, husband, *professional hobbyist*, Co-Founder and
+My name is Miha Hribar. I am a dad, husband, *professional hobbyist*, Consultant, Co-Founder and
 CTO of [Toshl](http://toshl.com) (mostly in that order). I'm always tinkering with various ideas whenever I find the time. You can see a list of my public
 projects and contributions on [Github](https://github.com/mihahribar).
+
+Consulting
+----------
+
+Currently most of my days are dedicated to helping various companies achieve their desired outcomes with technology. If you are looking for somebody to help out drop me a line.
 
 Toshl Finance
 -------------
 
-Currently most of my days are spent working on
+Previously most of my days are spent working on
 [Toshl](https://toshl.com), a [500 Startup](http://500.co) company,
 headquartered in San Francisco, California and Kranj, Slovenia. I'm the
 CTO and a Co-Founder of the campany. If you need help with your finances, try it out.
