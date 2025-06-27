@@ -11,20 +11,20 @@ keywords: restful, api, obj-c, php, javascript, startup, css, mac keyboard layou
 
 
 <section id="more">
-	<h2>Recent blog posts</h2>
+	<h2>Recent posts</h2>
 	<ul>
 		{% for post in site.posts limit:3 %}
 		<li>
-			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+			<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 			<p>{{ post.description }}</p>
 		</li>
 		{% endfor %}
-		<li><h2><a href="/archive">Archive</a> →</h2></li>
+		<li><h3><a href="/archive">Archive</a> →</h3></li>
 	</ul>
 </section>
 
 <section id="books">
-	<h2>Recent Books</h2>
+	<h2>Recent books</h2>
 	<ul>
 		{% for book in site.data.books limit:3 %}
 		<li class="book-item">
@@ -33,6 +33,6 @@ keywords: restful, api, obj-c, php, javascript, startup, css, mac keyboard layou
 			</a>
 		</li>
 		{% endfor %}
-		<li><h2><a href="/books">All Books</a> →</h2></li>
+		<li><h3><a href="/books">All Books</a> →</h3></li>
 	</ul>
 </section>

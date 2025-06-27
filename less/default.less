@@ -216,13 +216,19 @@ footer {
   margin-left: 0;
 }
 
-#more h2 a, #archive h2 a, #books h2 a {
+#more h3 a, #archive h2 a, #books h3 a {
   color: @colorLink;
   text-decoration: underline;
 }
 
 #more h2, #archive h2 {
   padding-bottom: 0;
+}
+
+#more > h2, #books > h2 {
+  border-left: 5px solid @colorLink;
+  padding-left: 0.5em;
+  color: @colorTitle;
 }
 
 #whoami {
@@ -291,6 +297,11 @@ footer {
   #about ul:nth-of-type(2) {
     .column-count(1, 1em)
   }
+}
+
+#books h2 {
+  margin-top: 1em;
+  padding-bottom: 0;
 }
 
 #books ul {

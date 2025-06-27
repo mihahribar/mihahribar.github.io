@@ -305,15 +305,21 @@ footer {
   list-style: none;
   margin-left: 0;
 }
-#more h2 a,
+#more h3 a,
 #archive h2 a,
-#books h2 a {
+#books h3 a {
   color: #7f1e23;
   text-decoration: underline;
 }
 #more h2,
 #archive h2 {
   padding-bottom: 0;
+}
+#more > h2,
+#books > h2 {
+  border-left: 5px solid #7f1e23;
+  padding-left: 0.5em;
+  color: #000;
 }
 #whoami {
   padding-bottom: 2em;
@@ -401,6 +407,10 @@ footer {
     column-count: 1;
     column-gap: 1em;
   }
+}
+#books h2 {
+  margin-top: 1em;
+  padding-bottom: 0;
 }
 #books ul {
   padding-top: 2em;
