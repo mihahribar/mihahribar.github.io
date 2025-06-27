@@ -293,29 +293,16 @@ footer {
   }
 }
 
-// Books grid styling
 #books {
+  background-color: #00b3ee;
+}
+
+#books ul {
   padding-top: 2em;
 }
 
-#books .book-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 180px);
-  gap: 3em 2em;
-  padding: 2em 0;
-  justify-content: center;
-}
-
-#books .book-item {
-  text-align: center;
-  width: 180px;
-}
-
-#books .book-item a {
-  display: block;
-  text-decoration: none;
-  color: inherit;
-  transition: transform 0.3s ease;
+#books li {
+  list-style: none;
 }
 
 #books .book-item a:hover {
@@ -323,43 +310,7 @@ footer {
 }
 
 #books .book-item img {
-  width: 180px;
-  height: 260px;
-  object-fit: cover;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-@media screen and (max-width: 48em) {
-  #books .book-grid {
-    grid-template-columns: repeat(auto-fill, 140px);
-    gap: 2em 1.5em;
-  }
-  
-  #books .book-item {
-    width: 140px;
-  }
-  
-  #books .book-item img {
-    width: 140px;
-    height: 200px;
-  }
-}
-
-@media screen and (max-width: 28.75em) {
-  #books .book-grid {
-    grid-template-columns: repeat(auto-fill, 120px);
-    gap: 1.5em 1em;
-  }
-  
-  #books .book-item {
-    width: 120px;
-  }
-  
-  #books .book-item img {
-    width: 120px;
-    height: 170px;
-  }
+  max-width: 100%;
 }
 
 @import 'syntax.less';
