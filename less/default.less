@@ -300,13 +300,15 @@ footer {
 
 #books .book-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fill, 180px);
   gap: 3em 2em;
   padding: 2em 0;
+  justify-content: center;
 }
 
 #books .book-item {
   text-align: center;
+  width: 180px;
 }
 
 #books .book-item a {
@@ -321,40 +323,41 @@ footer {
 }
 
 #books .book-item img {
-  width: 100%;
+  width: 180px;
   height: 260px;
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  margin-bottom: 1em;
-}
-
-#books .book-item h3 {
-  padding: 0;
-  font-size: 0.9em;
-  line-height: 1.3em;
-  color: @colorText;
-  margin: 0;
 }
 
 @media screen and (max-width: 48em) {
   #books .book-grid {
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    grid-template-columns: repeat(auto-fill, 140px);
     gap: 2em 1.5em;
   }
   
+  #books .book-item {
+    width: 140px;
+  }
+  
   #books .book-item img {
+    width: 140px;
     height: 200px;
   }
 }
 
 @media screen and (max-width: 28.75em) {
   #books .book-grid {
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fill, 120px);
     gap: 1.5em 1em;
   }
   
+  #books .book-item {
+    width: 120px;
+  }
+  
   #books .book-item img {
+    width: 120px;
     height: 170px;
   }
 }
