@@ -5,15 +5,34 @@ description: Miha Hribar, Co-Founder and CTO of Toshl, writing about what makes 
 keywords: restful, api, obj-c, php, javascript, startup, css, mac keyboard layout
 ---
 
+<section id="about">
+	<h1>Hej! I'm <a href="http://miha.hribar.org" rel="author">Miha Hribar</a>.</h1>
+</section>
+
+
 <section id="more">
-	<h1>Writings by <a href="http://miha.hribar.org" rel="author">Miha Hribar</a>.</h1>
+	<h2>Recent blog posts</h2>
 	<ul>
-		{% for post in site.posts limit:6 %}
+		{% for post in site.posts limit:3 %}
 		<li>
 			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 			<p>{{ post.description }}</p>
 		</li>
 		{% endfor %}
 		<li><h2><a href="/archive">Archive</a> →</h2></li>
+	</ul>
+</section>
+
+<section id="books">
+	<h2>Recent Books</h2>
+	<ul>
+		{% for book in site.data.books limit:3 %}
+		<li class="book-item">
+			<a href="{{ book.goodreads_url }}" target="_blank">
+				<img src="/images/books/{{ book.image }}" alt="{{ book.title }}" />
+			</a>
+		</li>
+		{% endfor %}
+		<li><h2><a href="/books">All Books</a> →</h2></li>
 	</ul>
 </section>
