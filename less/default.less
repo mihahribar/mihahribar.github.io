@@ -15,15 +15,15 @@
 @colorFaded:          #aaa;
 @colorHeaderBorder:   #ddd;
 @colorCodeBorder:     #eaeaea;
-@colorCodeBackgorund: #f8f8f8;
+@colorCodeBackground: #f8f8f8;
 @colorFooterLink:     #444;
 @colorArchiveBorder:  #eaeaea;
 @colorTableBorder:    #eaeaea;
 
 body {
   font-family: "adelle", serif;
-  font-size: @font-size / 16*1em;
-  line-height: @line / @em;
+  font-size: (@font-size / 16)*1em;
+  line-height: (@line / @em);
   margin: 0 auto;
   max-width: @10cols;
   color: @colorText;
@@ -135,7 +135,7 @@ ol li {
 code {
   border-top: 1px solid @colorCodeBorder;
   border-bottom: 1px solid @colorCodeBorder;
-  background-color: @colorCodeBackgorund;
+  background-color: @colorCodeBackground;
   margin: 0 2px;
   padding: 0 5px;
 }
@@ -151,7 +151,7 @@ pre {
   padding: 0.5em;
   overflow: scroll;
   border: 1px solid @colorCodeBorder;
-  background-color: @colorCodeBackgorund;
+  background-color: @colorCodeBackground;
   .border-radius(5px)
 }
 
@@ -293,16 +293,13 @@ footer {
   }
 }
 
-#books {
-  background-color: #00b3ee;
-}
-
 #books ul {
   padding-top: 2em;
 }
 
 #books li {
   list-style: none;
+  margin-left: 0;
 }
 
 #books .book-item a:hover {

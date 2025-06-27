@@ -400,6 +400,19 @@ footer {
     column-gap: 1em;
   }
 }
+#books ul {
+  padding-top: 2em;
+}
+#books li {
+  list-style: none;
+  margin-left: 0;
+}
+#books .book-item a:hover {
+  transform: translateY(-5px);
+}
+#books .book-item img {
+  max-width: 100%;
+}
 .highlight {
   background: #ffffff;
 }
