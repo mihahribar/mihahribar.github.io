@@ -1,3 +1,9 @@
+- title: "The Ghost Brigades"
+  author: "John Scalzi"
+  goodreads_url: "https://www.goodreads.com/book/show/239399.The_Ghost_Brigades"
+  image: "ghost-brigades.jpeg"
+  year: 2025
+
 - title: "Infrastructure as Code"
   author: "Kief Morris"
   goodreads_url: "https://www.goodreads.com/book/show/53481701-infrastructure-as-code"
@@ -98,10 +104,4 @@
   author: "Dennis E. Taylor"
   goodreads_url: "https://www.goodreads.com/book/show/32109569-we-are-legion-we-are-bob"
   image: "we-are-legion.jpeg"
-  year: 2025
-
-- title: "The Ghost Brigades"
-  author: "John Scalzi"
-  goodreads_url: "https://www.goodreads.com/book/show/239399.The_Ghost_Brigades"
-  image: "ghost-brigades.jpeg"
   year: 2025
