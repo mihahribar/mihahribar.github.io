@@ -6,7 +6,7 @@ title: About
 About
 =====
 
-![](http://www.gravatar.com/avatar/0f4e496a1dd3c0166af5527febb30dc6?rating=PG&size=150)
+![](https://gravatar.com/userimage/3128424/6f8ecba3665119695b750c0213474017.jpeg?size=256)
 My name is Miha Hribar. I am a dad, husband, *professional hobbyist*, Consultant, Co-Founder and
 CTO of [Toshl](http://toshl.com) (mostly in that order). I'm always tinkering with various ideas whenever I find the time. You can see a list of my public
 projects and contributions on [Github](https://github.com/mihahribar).
