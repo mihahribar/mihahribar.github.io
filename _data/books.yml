@@ -1,13 +1,19 @@
-- title: "Pathfinders"
-  author: "JL Collins"
-  goodreads_url: "https://www.goodreads.com/book/show/203439703-pathfinders"
-  image: "pathfinders.jpeg"
+- title: "Superagency"
+  author: "Reid Hoffman, Greg Beato"
+  goodreads_url: "https://www.goodreads.com/book/show/216336470-superagency"
+  image: "superagency.jpeg"
   year: 2025
 
 - title: "Infrastructure as Code"
   author: "Kief Morris"
   goodreads_url: "https://www.goodreads.com/book/show/53481701-infrastructure-as-code"
   image: "infrastructure-as-code.jpeg"
+  year: 2025
+
+- title: "Pathfinders"
+  author: "JL Collins"
+  goodreads_url: "https://www.goodreads.com/book/show/203439703-pathfinders"
+  image: "pathfinders.jpeg"
   year: 2025
 
 - title: "The Simple Path To Wealth"
