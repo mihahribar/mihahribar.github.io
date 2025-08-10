@@ -3,7 +3,7 @@ layout: post
 title: Vibe Coding
 category : AI
 tags : [AI, vibe, coding, claude code, LLM]
-description: We went from debugging our own semicolons to debugging AI-generated code we barely understand, and somehow we're calling this progress. Welcome to vibe coding.
+description: We went from debugging our own mistakes to debugging AI-generated code we barely understand, and somehow we're calling this progress. Welcome to vibe coding.
 keywords: AI, vibe, coding, claude code, LLM
 ---
 
