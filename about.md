@@ -14,7 +14,7 @@ projects and contributions on [Github](https://github.com/mihahribar).
 Consulting
 ----------
 
-Currently most of my days are dedicated to helping various companies achieve their desired outcomes with technology. If you are looking for somebody to help out drop me a line.
+Currently most of my days are dedicated to helping various companies achieve their desired outcomes with technology. If you are looking for somebody to help out drop me a line on [Linkedin](http://www.linkedin.com/in/mihahribar).
 
 Toshl Finance
 -------------
