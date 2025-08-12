@@ -317,6 +317,10 @@ footer {
 #archive h2 {
   padding-bottom: 0;
 }
+p.meta {
+  font-size: 0.9em;
+  color: #aaa;
+}
 #whoami {
   padding-bottom: 2em;
 }

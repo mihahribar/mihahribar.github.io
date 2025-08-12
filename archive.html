@@ -10,6 +10,7 @@ title: Archive
 	  	<li>
 		  	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 		  	<p>{{ post.description }}</p>
+			<p class="meta"><time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date_to_string }}</time> | <em>Category</em>: {{ post.category }}</p>
 	  	</li>
 	  	{% endfor %}
 	</ul>
