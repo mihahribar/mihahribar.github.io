@@ -7,9 +7,9 @@ About
 =====
 
 ![](https://gravatar.com/userimage/3128424/6f8ecba3665119695b750c0213474017.jpeg?size=256)
-My name is Miha Hribar. I am a dad, husband, *professional hobbyist*, Consultant, Co-Founder and
-CTO of [Toshl](http://toshl.com) (mostly in that order). I'm always tinkering with various ideas whenever I find the time. You can see a list of my public
-projects and contributions on [Github](https://github.com/mihahribar).
+I'm Miha Hribar — dad, husband, perpetual tinkerer, and technology leader, roughly in that order of importance. When I'm not chasing after my family or exploring the latest tech trends, you'll find me building solutions that matter as a consultant and CTO of [Toshl Finance](http://toshl.com).
+
+I believe the best innovations come from curiosity and hands-on experimentation. Whether it's a weekend side project or architecting enterprise systems, I approach every challenge with the same enthusiasm for elegant problem-solving. You can explore my latest experiments and contributions on [Github](https://github.com/mihahribar).
 
 Technology Consulting
 ----------
