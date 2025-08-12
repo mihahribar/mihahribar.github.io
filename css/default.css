@@ -158,7 +158,8 @@ header p a,
 article a,
 article a:visited,
 footer a,
-footer a:visited {
+footer a:visited,
+#about a {
   color: #7f1e23;
   text-decoration: underline;
 }
@@ -315,13 +316,6 @@ footer {
 #more h2,
 #archive h2 {
   padding-bottom: 0;
-}
-#more > h2,
-#books > h2,
-#about > h2 {
-  border-left: 5px solid #7f1e23;
-  padding-left: 0.5em;
-  color: #000;
 }
 #whoami {
   padding-bottom: 2em;
