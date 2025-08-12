@@ -11,23 +11,23 @@ My name is Miha Hribar. I am a dad, husband, *professional hobbyist*, Consultant
 CTO of [Toshl](http://toshl.com) (mostly in that order). I'm always tinkering with various ideas whenever I find the time. You can see a list of my public
 projects and contributions on [Github](https://github.com/mihahribar).
 
-Consulting
+Technology Consulting
 ----------
 
-Currently most of my days are dedicated to helping various companies achieve their desired outcomes with technology. If you are looking for somebody to help out drop me a line on [Linkedin](http://www.linkedin.com/in/mihahribar).
+I partner with companies to turn ambitious ideas into reality through strategic technology solutions. With deep expertise across the full stack, I help organizations navigate complex technical challenges, scale their systems, and achieve measurable business outcomes. Whether you're building from the ground up or optimizing existing infrastructure, I bring both technical depth and strategic vision to every project.
+
+Ready to discuss how technology can accelerate your goals? Let's connect on [Linkedin](http://www.linkedin.com/in/mihahribar).
 
 Toshl Finance
 -------------
 
-Previously most of my days are spent working on
-[Toshl](https://toshl.com), a [500 Startup](http://500.co) company,
-headquartered in San Francisco, California and Kranj, Slovenia. I'm the
-CTO and a Co-Founder of the campany. If you need help with your finances, try it out.
+As CTO and Co-Founder of [Toshl](https://toshl.com), I'm building the future of personal finance management. Toshl is a [500 Startups - backed](http://500.co) company with headquarters spanning San Francisco, California and Kranj, Slovenia. We're on a mission to make financial wellness accessible and intuitive for everyone.
+
+Our platform helps millions of users worldwide take control of their finances through intelligent insights, beautiful design, and powerful automation. If you're ready to transform your relationship with money, give Toshl a try.
 
 - [Angel List](http://angel.co/toshl)
 - [Twitter](http://twitter.com/toshl)
 - [Facebook](http://www.facebook.com/ToshlFinance)
-- [Google+](https://plus.google.com/107346451756750757079)
 
 Talks
 -----
