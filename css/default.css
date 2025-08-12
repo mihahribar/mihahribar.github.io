@@ -307,7 +307,8 @@ footer {
 }
 #more h3 a,
 #archive h2 a,
-#books h3 a {
+#books h3 a,
+#about h3 a {
   color: #7f1e23;
   text-decoration: underline;
 }
@@ -316,7 +317,8 @@ footer {
   padding-bottom: 0;
 }
 #more > h2,
-#books > h2 {
+#books > h2,
+#about > h2 {
   border-left: 5px solid #7f1e23;
   padding-left: 0.5em;
   color: #000;
