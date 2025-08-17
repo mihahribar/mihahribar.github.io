@@ -19,6 +19,7 @@
 @colorFooterLink:     #444;
 @colorArchiveBorder:  #eaeaea;
 @colorTableBorder:    #eaeaea;
+@colorTag:            #f0f0f0;
 
 body {
   font-family: "adelle", serif;
@@ -61,8 +62,9 @@ em {
 header p {
   font-size: 1em;
   padding: 1.15em 0 0 0;
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
   color: @colorFaded;
+  line-height: 1.2em;
 }
 
 header p a, header p a:visited {
@@ -227,7 +229,20 @@ footer {
 
 p.meta {
   font-size: 0.9em;
+  padding: 0.3em 0 0 0;
   color: @colorFaded;
+}
+
+p.meta time {
+  margin-right: 0.4em;
+}
+
+em.tag {
+  padding: 0.5em;
+  margin: 0 0.4em 0 0;
+  background-color: @colorTag;
+  border-radius: 5px;
+  font-size: 0.8em;
 }
 
 #whoami {

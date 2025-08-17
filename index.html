@@ -19,7 +19,12 @@ keywords: restful, api, startup, LLMS, AI, Claude Code, Vibe Coding, mac keyboar
 		<li>
 			<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 			<p>{{ post.description }}</p>
-			<p class="meta"><time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date_to_string }}</time> | <em>Category</em>: {{ post.category }}</p>
+			<p class="meta">
+				<time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date_to_string }}</time>
+				{% for tag in post.tags %}
+					<em class="tag">{{ tag }}</em>
+				{% endfor %}
+			</p>
 		</li>
 		{% endfor %}
 		<li><h3><a href="/archive">Archive</a> →</h3></li>
@@ -37,5 +42,5 @@ keywords: restful, api, startup, LLMS, AI, Claude Code, Vibe Coding, mac keyboar
 		</li>
 		{% endfor %}
 	</ul>
-	<h3><a href="/books">All books</a> →</h3>
+	<h3><a href="/books">Books</a> →</h3>
 </section>
