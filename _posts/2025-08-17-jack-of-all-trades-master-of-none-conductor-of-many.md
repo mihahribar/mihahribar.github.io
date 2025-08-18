@@ -2,9 +2,9 @@
 layout: post
 title: Jack of All Trades, Master of None, Conductor of Many
 category : AI
-tags : [Expert Generalist, AI, vibe, coding, claude code, LLM]
+tags : [Expert Generalist, AI, Vibe Coding, Claude Code, LLM]
 description: While traditional wisdom favored deep specialists, LLMs are democratizing specialized knowledge. The new superpower isn't knowing everything about React or Kubernetes—it's knowing enough about many domains to effectively prompt, validate, and synthesize AI outputs across them.
-keywords: Expert Generalist, AI, vibe, coding, claude code, LLM
+keywords: Expert Generalist, AI, Vibe Coding, Claude Code, LLM
 ---
 
 Picture this: You need to build a data pipeline that ingests social media feeds, processes them with ML sentiment analysis, stores results in a graph database, and displays insights in a React dashboard. Five years ago, you’d need a team of specialists — a data engineer, ML scientist, database architect, and frontend developer. Today, one [Expert Generalist](https://martinfowler.com/articles/expert-generalist.html) with [Claude Code](https://www.anthropic.com/claude-code) can prototype this in an afternoon.
@@ -24,6 +24,8 @@ In Fowler's world, those deeper skills belonged to human specialists. But what h
 ## Expert Generalists are the new rock stars of this AI landscape.
 
 Modern Expert Generalists don't just use one AI tool—they conduct an ensemble. They might cue Claude for the opening movement of architecture planning, bring in GitHub Copilot for the development crescendo, call on ChatGPT for testing harmonies, and return to Claude for the documentation finale. Each AI plays its strongest notes, and Expert Generalists know when to bring each section in. But conducting this ensemble requires more than just knowing which tool to use when.
+
+![The Maestro - Seinfeld](/images/maestro.jpg)
 
 Without this broad knowledge, you get dangerous AI outputs. The specialist who asks ChatGPT about frontend development might implement its suggestions without realizing they're playing out of tune with security best practices. The generalist recognizes when something feels wrong, even if they can't immediately articulate why.
 

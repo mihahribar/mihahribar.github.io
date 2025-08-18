@@ -2,9 +2,9 @@
 layout: post
 title: Vibe Coding
 category : AI
-tags : [AI, vibe, coding, claude code, LLM]
+tags : [AI, Vibe Coding, Claude Code, LLM]
 description: We went from debugging our own mistakes to debugging AI-generated code we barely understand, and somehow we're calling this progress. Welcome to vibe coding.
-keywords: AI, vibe, coding, claude code, LLM
+keywords: AI, Vibe Coding, Claude Code, LLM
 ---
 
 Remember when we used to write code? Actual code. Line by line. Missed semicolon by missed semicolon. 
