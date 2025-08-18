@@ -11,6 +11,8 @@ I'm Miha Hribar — dad, husband, perpetual tinkerer, and technology leader, rou
 
 I believe the best innovations come from curiosity and hands-on experimentation. Whether it's a weekend side project or architecting enterprise systems, I approach every challenge with the same enthusiasm for elegant problem-solving. You can explore my latest experiments and contributions on [Github](https://github.com/mihahribar).
 
+### [CV](/cv) →
+
 Technology Consulting
 ----------
 
