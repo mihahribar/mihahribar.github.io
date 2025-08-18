@@ -20,6 +20,8 @@ I partner with companies to turn ambitious ideas into reality through strategic 
 
 Ready to discuss how technology can accelerate your goals? Let's connect on [Linkedin](http://www.linkedin.com/in/mihahribar).
 
+### [Linkedin](http://www.linkedin.com/in/mihahribar) →
+
 Toshl Finance
 -------------
 
@@ -27,9 +29,7 @@ As CTO and Co-Founder of [Toshl](https://toshl.com), I'm building the future of 
 
 Our platform helps millions of users worldwide take control of their finances through intelligent insights, beautiful design, and powerful automation. If you're ready to transform your relationship with money, give Toshl a try.
 
-- [Angel List](http://angel.co/toshl)
-- [Twitter](http://twitter.com/toshl)
-- [Facebook](http://www.facebook.com/ToshlFinance)
+### [Toshl Finance](https://toshl.com) →
 
 Talks
 -----
