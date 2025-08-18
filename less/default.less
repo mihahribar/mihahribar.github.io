@@ -9,17 +9,17 @@
 
 @import 'common.less';
 
-@colorLink:           #7f1e23;
-@colorTitle:          #000;
-@colorText:           #333;
-@colorFaded:          #aaa;
-@colorHeaderBorder:   #ddd;
-@colorCodeBorder:     #eaeaea;
-@colorCodeBackground: #f8f8f8;
-@colorFooterLink:     #444;
-@colorArchiveBorder:  #eaeaea;
-@colorTableBorder:    #eaeaea;
-@colorTag:            #f0f0f0;
+@colorLink:               #7f1e23;
+@colorTitle:              #000;
+@colorText:               #333;
+@colorFaded:              #aaa;
+@colorHeaderBorder:       #ddd;
+@colorCodeBorder:         #eaeaea;
+@colorCodeBackground:     #f8f8f8;
+@colorFooterLink:         #444;
+@colorArchiveBorder:      #eaeaea;
+@colorTableBorder:        #eaeaea;
+@colorTag:                #f0f0f0;
 
 body {
   font-family: "adelle", serif;
@@ -164,6 +164,17 @@ code, pre {
 
 article img {
   max-width: 100%;
+}
+
+.image-caption {
+  display: block;
+  margin: -1em 0 1em 0;
+  padding: 0.5em;
+  font-size: 0.8em;
+  color: @colorFaded;
+  font-style: italic;
+  text-align: center;
+  line-height: 1.4em;
 }
 
 article > p {

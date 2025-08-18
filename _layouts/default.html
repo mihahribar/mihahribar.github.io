@@ -38,6 +38,20 @@
 
 {{ content }}
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const images = document.querySelectorAll('article img[alt]:not([alt=""])');
+
+    images.forEach(function(img) {
+        const caption = document.createElement('caption');
+        caption.className = 'image-caption';
+        caption.textContent = img.alt;
+
+        img.parentNode.insertBefore(caption, img.nextSibling);
+    });
+});
+</script>
+
 <footer>
 	<section>
 		<h2>whoami</h2>

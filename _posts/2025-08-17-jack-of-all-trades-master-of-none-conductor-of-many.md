@@ -25,7 +25,7 @@ In Fowler's world, those deeper skills belonged to human specialists. But what h
 
 Modern Expert Generalists don't just use one AI tool—they conduct an ensemble. They might cue Claude for the opening movement of architecture planning, bring in GitHub Copilot for the development crescendo, call on ChatGPT for testing harmonies, and return to Claude for the documentation finale. Each AI plays its strongest notes, and Expert Generalists know when to bring each section in. But conducting this ensemble requires more than just knowing which tool to use when.
 
-![The Maestro - Seinfeld](/images/maestro.jpg)
+![Actually, I prefer to be called Maestro.](/images/maestro.jpg)
 
 Without this broad knowledge, you get dangerous AI outputs. The specialist who asks ChatGPT about frontend development might implement its suggestions without realizing they're playing out of tune with security best practices. The generalist recognizes when something feels wrong, even if they can't immediately articulate why.
 
