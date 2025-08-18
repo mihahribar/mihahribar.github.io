@@ -1,0 +1,120 @@
+- company: IKEA
+  link: https://www.ikea.com
+  title: Tech Lead
+  location: Malmö, Sweden (Remote)
+  from: April 2023
+  to: Present
+  description: |
+    Initially brought on as a senior developer consultant, I quickly became the tech lead for the team of 6 developers, responsible for the architecture and development direction of an internal product in rewrite.
+  skills:
+    - Kotlin
+    - Quarkus
+    - Typescript
+    - React
+    - Domain Driven Design
+    - Clean Architecture
+    - Event Based Architecture
+    - Serverless Architecture
+    - GCP
+    - Cloud Run
+    - Cloud Run Jobs
+    - PubSub
+    - Cloud SQL
+    - PostgreSQL
+    - Microservices
+    - DevOps
+    - Terraform
+  tasks:
+    - reduced the complexity of the codebase, while taking a step back from many microservices to focus on a monolith with a clear separation of concerns
+    - helped team migrate towards a serverless architecture using GCP, Cloud Run and Cloud Run Jobs, PubSub and Cloud SQL
+    - guided the team towards a more event based architecture using PubSub
+    - set the standards for developing in a more modern environment using Kotlin and Quarkus, with a focus on clean architecture and domain driven design
+
+- company: Toshl Finance
+  link: https://toshl.com
+  title: CTO & Co-Founder
+  location: Slovenia/San Francisco, USA
+  from: December 2009
+  to: Present
+  description: |
+    Toshl Finance is a personal finance manager that will help you get your finances in order. Accepted into 500 startups (batch 4). Toshl now has over 3 million users from all over the world and is able to connect to almost 15000 financial institutions worldwide.
+  skills:
+    - Java
+    - Javascript
+    - Wildfly/JBoss
+    - Hibernate
+    - REST API
+    - oAuth
+    - Redis
+    - MariaDB
+    - Docker
+    - iOS Development
+    - Objective-C
+    - Swift
+    - Android Development
+    - Java
+    - Kotlin
+    - Microservices Architecture
+    - DevOps
+    - CI/CD
+    - ELK
+    - Grafana
+  tasks:
+    - setup and maintained infrastructure using a hybrid approach (cloud + dedicated servers) (Ubuntu, Hetzner, Swarm, nginx) designed and developed backend with a public facing REST API (oAuth, Java, Wildfly, J2EE, Hibernate, Redis, MariaDB, swagger)
+    - connected to banking data aggregators Plaid and SaltEdge, implemented direct financial institution connections (PSD2) deployed, maintained and optimized MariaDB servers with master slave replication with over 100GB+ in size
+    - developed iOS application with 4.7+ rating on appstore (objc, swift, core data)
+    - built and deployed various microservices (MQ, nodejs, javascript, puppeteer)
+    - built developer docs which were automatically generated from swagger specs (jekyll, ruby)
+    - setup and maintained KPI dashboards (Grafana, statsd)
+    - logging infrastructure setup and maintenance (ELK)
+
+- company: Tretton37
+  link: https://tretton37.com
+  title: Lead Consultant
+  location: Ljubljana, Slovenia (Hybrid)
+  from: March 2023
+  to: December 2024
+  skills:
+      - Communication
+      - Technical Leadership
+      - GCP
+      - AWS
+      - React
+      - Typescript
+      - Kotlin
+
+- company: Bitstamp
+  link: https://www.bitstamp.net
+  title: Mobile Team Lead & iOS Developer
+  location: Slovenia (Contract)
+  from: May 2018
+  to: September 2018
+  description: |
+    Managed the rewrite of both mobile apps (Android and iOS) in three months. Recommended standards to be used on backend (oAuth + PKCE)
+  skills:
+    - iOS Development
+    - Objective-C
+    - Swift
+    - Android Development
+    - Java
+    - Kotlin
+    - REST API
+    - oAuth
+    - Mobile Architecture
+
+- company: 3FS
+  link: https://www.3fs.cloud
+  title: Senior Developer
+  location: Slovenia
+  from: November 2007
+  to: November 2012
+  skills:
+    - PHP
+    - MySQL
+    - Linux
+    - Apache
+    - Nginx
+    - HTML
+    - CSS
+    - Javascript
+    - jQuery

@@ -204,7 +204,7 @@ footer {
   padding-bottom: 2em;
 }
 
-#about img {
+#about img, #cv img {
   float: right;
   padding: 0;
   margin: 0 0 0.5em 0.5em;
@@ -249,8 +249,9 @@ p.meta time {
 }
 
 em.tag {
-  padding: 0.5em;
-  margin: 0 0.4em 0 0;
+  display: inline-block;
+  padding: 0.2em 0.4em;
+  margin: 0 0.4em 0.4em 0;
   background-color: @colorTag;
   border-radius: 5px;
   font-size: 0.8em;
@@ -266,7 +267,7 @@ em.tag {
 
 /* 320px width */
 @media screen and (min-width: 20em) {
-  #about img {
+  #about img, #cv img {
     width: 6em;
   }
 
@@ -277,7 +278,7 @@ em.tag {
 
 /* 460px */
 @media screen and (min-width: 28.75em) {
-  #about img {
+  #about img, #cv img {
     width: 10em;
   }
 
@@ -384,6 +385,55 @@ em.tag {
     grid-template-columns: repeat(4, 1fr);
     gap: 2.5em;
   }
+}
+
+// CV page styles
+#cv h1 {
+  font-size: 2.8em;
+  padding: 1em 0 0;
+  border-bottom: none;
+}
+
+#cv h2 {
+  font-size: 1.5em;
+}
+
+#cv h3 {
+  font-size: 1.4em;
+  padding: 1.5em 0 0.5em 0;
+  font-weight: bold;
+}
+
+#cv hr {
+  border: 0;
+  border-top: 2px dashed @colorHeaderBorder;
+  margin: 2em 0;
+}
+
+#cv strong {
+  font-weight: bold;
+}
+
+#cv em {
+  color: @colorFaded;
+  font-style: normal;
+}
+
+#cv p {
+  margin-bottom: 1em;
+}
+
+#cv ul {
+  padding: 0;
+  margin-bottom: 1em;
+}
+
+#cv ul li {
+  margin-bottom: 0.5em;
+}
+
+#cv .job {
+  margin-bottom: 3em;
 }
 
 @import 'syntax.less';

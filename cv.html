@@ -1,0 +1,87 @@
+---
+layout: cv
+title: CV
+description: Miha Hribar's curriculum vitae - Technology leader, CTO, and software developer
+keywords: CV, curriculum vitae, technology leader, CTO, software developer, fintech
+---
+
+<h1>Miha Hribar</h1>
+<img src="/images/me-cv.jpg" />
+<h2 class="subtitle">Technology Leader & Software Developer</h2>
+<section class="intro">
+    <p>Experienced technology leader and CTO with expertise in fintech, software development, and cross-platform solutions. Passionate about building scalable systems and leading technical teams to deliver innovative solutions.</p>
+</section>
+
+<hr>
+
+<h2>Work Experience</h2>
+
+<div class="jobs">
+    {% for job in site.data.jobs %}
+    <div class="job">
+        <strong class="job-header"><a href="{{ job.link }}" target="_blank">{{ job.company }}</a></strong> | <em class="job-title">{{ job.title }}</em> | <span class="job-location">{{ job.location }}</span>
+        <p class="job-period">{{ job.from }} - {{ job.to }}</p>
+        {% if job.skills %}
+        <p class="job-skills">
+            {% for skill in job.skills %}
+            <em class="tag">{{ skill }}</em>
+            {% endfor %}
+        </p>
+        {% endif %}
+        {% if job.description %}
+        <p>{{ job.description }}</p>
+        {% endif %}
+        {% if job.tasks %}
+        <ul>
+            {% for task in job.tasks %}
+            <li>{{ task }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>
+
+<hr>
+
+<h2>Education</h2>
+
+<div class="job">
+    <strong class="job-header">University of Ljubljana</strong>
+    <em class="job-title">Slovenia</em>
+    <p class="job-period">2001 - 2007</p>
+</div>
+
+<hr>
+
+<h2>Languages</h2>
+<ul class="languages">
+    <li><strong>English:</strong> Native or bilingual proficiency</li>
+    <li><strong>Slovenian:</strong> Native or bilingual proficiency</li>
+    <li><strong>Croatian:</strong> Limited working proficiency</li>
+    <li><strong>German:</strong> Elementary proficiency</li>
+</ul>
+
+<h2>Certifications</h2>
+<ul class="certifications">
+    <li><strong>AWS Certified Cloud Practitioner</strong> <em>March 2023 - March 2026</em></li>
+    <li><strong>AWS Serverless Badge</strong> <em>April 2023</em></li>
+</ul>
+
+<h2>Technical Skills</h2>
+<ul class="skills">
+    <li>Technology Leadership</li>
+    <li>Software Architecture & Development</li>
+    <li>Cross-platform Development (Mobile & Web)</li>
+    <li>Cloud Computing (AWS)</li>
+    <li>Fintech Solutions</li>
+    <li>Team Management & Strategy</li>
+</ul>
+
+<h2>Professional Networks</h2>
+<ul>
+    <li><a href="https://linkedin.com/in/mihahribar">LinkedIn</a></li>
+    <li><a href="https://github.com/mihahribar">GitHub</a></li>
+    <li><a href="https://twitter.com/mihahribar">Twitter</a></li>
+    <li><a href="http://stackoverflow.com/users/165708/miha-hribar">Stack Overflow</a></li>
+</ul>
