@@ -1,22 +1,18 @@
 <!DOCTYPE html>
-<!--[if lt IE 9]><html class="ie"><![endif]-->
-<!--[if gte IE 9]><!--><html><!--<![endif]-->
+<html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{% if page.url == '/' %}Miha Hribar{% else %}{{ page.title }} | Miha Hribar{% endif %}</title>
 	<meta name="author" content="Miha Hribar">
 	<meta name="description" content="{{ page.description }}">
 	<meta name="keywords" content="{{ page.keywords }}">
 	<link href="https://miha.hribar.org/atom.xml" rel="alternate" title="Miha Hribar" type="application/atom+xml">
+	<link rel="preconnect" href="https://use.typekit.net" crossorigin>
 	<script type="text/javascript" src="https://use.typekit.com/mje0zrn.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script type="text/javascript">try{Typekit.load({async:true});}catch(e){}</script>
 	<link rel="stylesheet" href="/css/default.css" type="text/css" media="screen, projection">
 	<link rel="icon" type="image/x-icon" href="/favicon.ico">
-	<!--[if lt IE 9]>
-		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
 	<meta property="og:locale" content="en_gb">
     <meta property="og:title" content="{% if page.url == '/' %}Miha Hribar{% else %}{{ page.title }}{% endif %}">
     <meta property="og:url" content="https://miha.hribar.org{{ page.url }}">
@@ -51,6 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script>
+<script data-goatcounter="https://mihahribar.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
 <footer>
 	<section>

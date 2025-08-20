@@ -250,8 +250,6 @@ pre {
   overflow: scroll;
   border: 1px solid #eaeaea;
   background-color: #f8f8f8;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
   border-radius: 5px;
 }
 code,
@@ -358,10 +356,6 @@ em.tag {
     width: 6em;
   }
   .longlist {
-    -moz-column-count: 1;
-    -moz-column-gap: 1em;
-    -webkit-column-count: 1;
-    -webkit-column-gap: 1em;
     column-count: 1;
     column-gap: 1em;
   }
@@ -373,19 +367,11 @@ em.tag {
     width: 10em;
   }
   .longlist {
-    -moz-column-count: 2;
-    -moz-column-gap: 1em;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 1em;
     column-count: 2;
     column-gap: 1em;
   }
   .widelist,
   #about ul {
-    -moz-column-count: 2;
-    -moz-column-gap: 1em;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 1em;
     column-count: 2;
     column-gap: 1em;
   }
@@ -409,27 +395,15 @@ em.tag {
     max-width: 43.5em;
   }
   .longlist {
-    -moz-column-count: 3;
-    -moz-column-gap: 1em;
-    -webkit-column-count: 3;
-    -webkit-column-gap: 1em;
     column-count: 3;
     column-gap: 1em;
   }
   .widelist,
   #about ul {
-    -moz-column-count: 4;
-    -moz-column-gap: 1em;
-    -webkit-column-count: 4;
-    -webkit-column-gap: 1em;
     column-count: 4;
     column-gap: 1em;
   }
   #about ul:nth-of-type(2) {
-    -moz-column-count: 1;
-    -moz-column-gap: 1em;
-    -webkit-column-count: 1;
-    -webkit-column-gap: 1em;
     column-count: 1;
     column-gap: 1em;
   }
@@ -453,9 +427,6 @@ em.tag {
 }
 #books .book-item {
   display: block;
-  -webkit-transition: transform 0.2s ease;
-  -moz-transition: transform 0.2s ease;
-  -ms-transition: transform 0.2s ease;
   transition: transform 0.2s ease;
 }
 #books .book-item a {
@@ -471,17 +442,10 @@ em.tag {
   max-width: 200px;
   margin: 0 auto;
   display: block;
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  -webkit-transition: box-shadow 0.2s ease;
-  -moz-transition: box-shadow 0.2s ease;
-  -ms-transition: box-shadow 0.2s ease;
   transition: box-shadow 0.2s ease;
 }
 #books .book-item a:hover img {
-  -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 @media (min-width: 16.5em) {
