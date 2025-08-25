@@ -553,6 +553,34 @@ em.tag {
 #cv .job {
   margin-bottom: 3em;
 }
+.back-button {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  z-index: 1000;
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  padding: 0.4em;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  color: var(--color-text);
+  background-color: var(--color-code-background);
+  border: 1px solid var(--color-code-border);
+  width: 2.5em;
+  height: 2.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back-button:hover {
+  transform: scale(1.1);
+  background-color: var(--color-tag);
+}
+.back-button:active {
+  transform: scale(0.95);
+}
 .theme-toggle {
   position: fixed;
   top: 1em;
