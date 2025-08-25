@@ -9,6 +9,7 @@
 
 @import 'common.less';
 
+// Light theme colors
 @colorLink:               #7f1e23;
 @colorTitle:              #000;
 @colorText:               #333;
@@ -21,14 +22,75 @@
 @colorTableBorder:        #eaeaea;
 @colorTag:                #f0f0f0;
 
+// CSS custom properties for theme switching
+:root {
+  --color-bg: #ffffff;
+  --color-link: #7f1e23;
+  --color-title: #000000;
+  --color-text: #333333;
+  --color-faded: #aaaaaa;
+  --color-header-border: #dddddd;
+  --color-code-border: #eaeaea;
+  --color-code-background: #f8f8f8;
+  --color-footer-link: #444444;
+  --color-archive-border: #eaeaea;
+  --color-table-border: #eaeaea;
+  --color-tag: #f0f0f0;
+  --color-table-hover: #fffeee;
+  --color-blockquote: #888888;
+  --color-blockquote-border: #cccccc;
+}
+
+// Dark theme
+:root[data-theme="dark"] {
+  --color-bg: #1a1a1a;
+  --color-link: #ff6b6b;
+  --color-title: #ffffff;
+  --color-text: #e0e0e0;
+  --color-faded: #888888;
+  --color-header-border: #404040;
+  --color-code-border: #404040;
+  --color-code-background: #2a2a2a;
+  --color-footer-link: #cccccc;
+  --color-archive-border: #404040;
+  --color-table-border: #404040;
+  --color-tag: #333333;
+  --color-table-hover: #2a2a2a;
+  --color-blockquote: #aaaaaa;
+  --color-blockquote-border: #555555;
+}
+
+// System preference detection
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-bg: #1a1a1a;
+    --color-link: #ff6b6b;
+    --color-title: #ffffff;
+    --color-text: #e0e0e0;
+    --color-faded: #888888;
+    --color-header-border: #404040;
+    --color-code-border: #404040;
+    --color-code-background: #2a2a2a;
+    --color-footer-link: #cccccc;
+    --color-archive-border: #404040;
+    --color-table-border: #404040;
+    --color-tag: #333333;
+    --color-table-hover: #2a2a2a;
+    --color-blockquote: #aaaaaa;
+    --color-blockquote-border: #555555;
+  }
+}
+
 body {
   font-family: "adelle", serif;
   font-size: (@font-size / 16)*1em;
   line-height: (@line / @em);
   margin: 0 auto;
   max-width: @10cols;
-  color: @colorText;
+  color: var(--color-text);
+  background-color: var(--color-bg);
   padding: 0 2em;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 // hide typekit badge
@@ -51,7 +113,7 @@ a {
 }
 
 header p a, article a, article a:visited, footer a, footer a:visited, #about a {
-  color: @colorLink;
+  color: var(--color-link);
   text-decoration: underline;
 }
 
@@ -63,12 +125,12 @@ header p {
   font-size: 1em;
   padding: 1.15em 0 0 0;
   margin-bottom: 2em;
-  color: @colorFaded;
+  color: var(--color-faded);
   line-height: 1.2em;
 }
 
 header p a, header p a:visited {
-  color: @colorFaded;
+  color: var(--color-faded);
 }
 
 article img {
@@ -80,13 +142,13 @@ article header p a {
 }
 
 article h1 a, article h1 a:visited {
-  color: @colorTitle;
+  color: var(--color-title);
 }
 
 article h1, section h1 {
   font-size: 2.5em;
   padding: 1em 0 0.2em 0;
-  border-bottom: 2px dashed @colorHeaderBorder;
+  border-bottom: 2px dashed var(--color-header-border);
 }
 
 article h2, section h2 {
@@ -104,17 +166,17 @@ article ul, section ul {
 }
 
 table {
-    border-bottom: 1px solid @colorTableBorder;
+    border-bottom: 1px solid var(--color-table-border);
     width: 100%;
     margin-bottom: 1.5em;
 }
 
 tr {
-    border-top: 1px solid @colorTableBorder;
+    border-top: 1px solid var(--color-table-border);
 }
 
 tr:hover {
-    background: #fffeee;
+    background: var(--color-table-hover);
 }
 
 td {
@@ -135,9 +197,9 @@ ol li {
 }
 
 code {
-  border-top: 1px solid @colorCodeBorder;
-  border-bottom: 1px solid @colorCodeBorder;
-  background-color: @colorCodeBackground;
+  border-top: 1px solid var(--color-code-border);
+  border-bottom: 1px solid var(--color-code-border);
+  background-color: var(--color-code-background);
   margin: 0 2px;
   padding: 0 5px;
 }
@@ -152,14 +214,14 @@ pre {
   margin: 1em 0;
   padding: 0.5em;
   overflow: scroll;
-  border: 1px solid @colorCodeBorder;
-  background-color: @colorCodeBackground;
+  border: 1px solid var(--color-code-border);
+  background-color: var(--color-code-background);
   .border-radius(5px)
 }
 
 code, pre {
   font-family: Courier, monospace;
-  color: @colorText;
+  color: var(--color-text);
 }
 
 article img {
@@ -171,7 +233,7 @@ article img {
   margin: -1em 0 1em 0;
   padding: 0.5em;
   font-size: 0.8em;
-  color: @colorFaded;
+  color: var(--color-faded);
   font-style: italic;
   text-align: center;
   line-height: 1.4em;
@@ -182,10 +244,10 @@ article > p {
 }
 
 blockquote {
-  color: #888;
+  color: var(--color-blockquote);
   padding: 0 0 0 1em;
   margin: 0 0 1em 0;
-  border-left: 0.3em solid #ccc;
+  border-left: 0.3em solid var(--color-blockquote-border);
 }
 
 img.left {
@@ -197,7 +259,7 @@ img.right {
 }
 
 footer {
-  border-top: 2px dashed @colorHeaderBorder;
+  border-top: 2px dashed var(--color-header-border);
   margin-top: 1em;
   float: left;
   width: 100%;
@@ -220,7 +282,7 @@ footer {
 }
 
 #more h1 a, #about h1 a {
-  color: @colorLink;
+  color: var(--color-link);
   text-decoration: underline;
 }
 
@@ -230,7 +292,7 @@ footer {
 }
 
 #more h3 a, #archive h2 a, #books h3 a, #about h3 a {
-  color: @colorLink;
+  color: var(--color-link);
   text-decoration: underline;
 }
 
@@ -241,7 +303,7 @@ footer {
 p.meta {
   font-size: 0.9em;
   padding: 0.3em 0 0 0;
-  color: @colorFaded;
+  color: var(--color-faded);
 }
 
 p.meta time {
@@ -252,7 +314,7 @@ em.tag {
   display: inline-block;
   padding: 0.2em 0.4em;
   margin: 0 0.4em 0.4em 0;
-  background-color: @colorTag;
+  background-color: var(--color-tag);
   border-radius: 5px;
   font-size: 0.8em;
 }
@@ -406,7 +468,7 @@ em.tag {
 
 #cv hr {
   border: 0;
-  border-top: 2px dashed @colorHeaderBorder;
+  border-top: 2px dashed var(--color-header-border);
   margin: 2em 0;
 }
 
@@ -415,7 +477,7 @@ em.tag {
 }
 
 #cv em {
-  color: @colorFaded;
+  color: var(--color-faded);
   font-style: normal;
 }
 
@@ -434,6 +496,38 @@ em.tag {
 
 #cv .job {
   margin-bottom: 3em;
+}
+
+// Theme toggle styles
+.theme-toggle {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  z-index: 1000;
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  padding: 0.4em;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  color: var(--color-text);
+  background-color: var(--color-code-background);
+  border: 1px solid var(--color-code-border);
+  width: 2.5em;
+  height: 2.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+  background-color: var(--color-tag);
+}
+
+.theme-toggle:active {
+  transform: scale(0.95);
 }
 
 @import 'syntax.less';
