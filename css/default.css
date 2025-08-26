@@ -432,8 +432,7 @@ em.tag {
     column-count: 2;
     column-gap: 1em;
   }
-  .widelist,
-  #about ul {
+  .widelist {
     column-count: 2;
     column-gap: 1em;
   }
@@ -463,8 +462,7 @@ em.tag {
     column-count: 3;
     column-gap: 1em;
   }
-  .widelist,
-  #about ul {
+  .widelist {
     column-count: 4;
     column-gap: 1em;
   }

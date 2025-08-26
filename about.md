@@ -37,25 +37,20 @@ Talks
 While I'm not particularly fond of public speaking, I have given a few
 talks on various subjects on local conferences and meetups.
 
--   <time datetime="2019-01-30">January 30<sup>th</sup> 2019</time>
-    [Working Remotely](/talks/remote.pdf), 3fs (Internal talk)
--   <time datetime="2018-02-28">February 28<sup>th</sup> 2018</time>
-    [Intro to Machine Learning](/talks/intro-to-ml.pdf), 3fs (Internal talk)
--   <time datetime="2017-09-12">September 12<sup>th</sup> 2017</time>
-    [Dr.Toshl, or how we learned to stop worrying and love the finance](/talks/dr.toshl.pdf), 3fs (Apple keynote event)
--   <time datetime="2012-10-24">October 24<sup>th</sup> 2012</time>
-    [API - State of the art](/talks/api-state-of-the-art), Spletne urice
--   <time datetime="2009-11-14">November 28<sup>th</sup> 2009</time>
-    [Continuous
-    Integration](http://www.slideshare.net/mihahribar/continuous-integration-2606686),
-    Webcamp LJ
--   <time datetime="2009-05-27">May 27<sup>th</sup> 2009</time>
-    [Keširanje dinamičnih
-    vsebin](http://phpkonferenca.si/2009/predavanje-kesiranje-dinamicnih-vsebin),
-    PHP konferenca
--   <time datetime="2007-11-14">November 14<sup>th</sup> 2007</time>
-    [jQuery](http://www.slideshare.net/mihahribar/jquery-11996194),
-    Spletne urice
+- [Working Remotely](/talks/remote.pdf), 3fs (Internal talk)<br/>
+  <time datetime="2019-01-30">January 30<sup>th</sup> 2019</time>
+- [Intro to Machine Learning](/talks/intro-to-ml.pdf), 3fs (Internal talk)<br/>
+  <time datetime="2018-02-28">February 28<sup>th</sup> 2018</time>
+- [Dr.Toshl, or how we learned to stop worrying and love the finance](/talks/dr.toshl.pdf), 3fs (Apple event) <br/>
+  <time datetime="2017-09-12">September 12<sup>th</sup> 2017</time>
+- *API - State of the art*, Spletne urice <br/>
+  <time datetime="2012-10-24">October 24<sup>th</sup> 2012</time>
+- *Continuous Integration*, Webcamp LJ <br/>
+  <time datetime="2009-11-14">November 28<sup>th</sup> 2009</time>
+- *Keširanje dinamičnih vsebin*, PHP conference<br/>
+  <time datetime="2009-05-27">May 27<sup>th</sup> 2009</time>
+- *jQuery*, Spletne urice<br/>
+  <time datetime="2007-11-14">November 14<sup>th</sup> 2007</time>
 
 Networks
 --------
@@ -64,11 +59,8 @@ You can find me and say hi (or not) on various trendy and not so trendy (social)
 
 - [Github](https://github.com/mihahribar)
 - [Linkedin](http://www.linkedin.com/in/mihahribar)
-- [Twitter](https://twitter.com/mihahribar)
+- [Twitter/X](https://x.com/mihahribar)
 - [Stackoverflow](http://stackoverflow.com/users/165708/miha-hribar)
-- [Facebook](https://www.facebook.com/mihahribar)
-- [Foursquare](https://foursquare.com/mihahribar)
-- [Slideshare](http://www.slideshare.net/mihahribar/)
 - [Instagram](https://www.instagram.com/mihahribar/)
 
 Props
