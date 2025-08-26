@@ -353,6 +353,8 @@ footer {
   padding: 0;
   margin: 0 0 0.5em 0.5em;
   border-radius: 50%;
+  aspect-ratio: 1;
+  object-fit: cover;
 }
 #about h1,
 #projects h1 {
@@ -409,6 +411,7 @@ em.tag {
   #about img,
   #cv img {
     width: 6em;
+    height: 6em;
   }
   .longlist {
     column-count: 1;
@@ -420,6 +423,7 @@ em.tag {
   #about img,
   #cv img {
     width: 10em;
+    height: 10em;
   }
   .longlist {
     column-count: 2;
