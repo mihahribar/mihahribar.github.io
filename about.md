@@ -37,6 +37,8 @@ Talks
 While I'm not particularly fond of public speaking, I have given a few
 talks on various subjects on local conferences and meetups.
 
+- ["You're absolutely right!" - Your guide to Vibe Coding](/talks/vibe-coding.pdf), DevOpsDays<br/>
+  <time datetime="2025-09-13">September 13<sup>th</sup> 2025</time>
 - [Working Remotely](/talks/remote.pdf), 3fs (Internal talk)<br/>
   <time datetime="2019-01-30">January 30<sup>th</sup> 2019</time>
 - [Intro to Machine Learning](/talks/intro-to-ml.pdf), 3fs (Internal talk)<br/>
