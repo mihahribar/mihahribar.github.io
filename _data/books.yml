@@ -1,7 +1,19 @@
+- title: "Vibe Coding: Building Production-Grade Software With GenAI, Chat, Agents, and Beyond"
+  author: "Gene Kim, Steve Yegge"
+  goodreads_url: "https://www.goodreads.com/book/show/228438060-vibe-coding"
+  image: "vibe-coding.jpeg"
+  year: 2025
+
 - title: "11/22/63"
   author: "Stephen King"
   goodreads_url: "https://www.goodreads.com/book/show/10644930-11-22-63"
   image: "11-22-63.jpeg"
+  year: 2025
+
+- title: "The Dark Forest"
+  author: "Liu Cixin"
+  goodreads_url: "https://www.goodreads.com/book/show/23168817-the-dark-forest"
+  image: "the-dark-forest.jpeg"
   year: 2025
 
 - title: "Randomize"
