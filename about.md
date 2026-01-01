@@ -13,8 +13,8 @@ I believe the best innovations come from curiosity and hands-on experimentation.
 
 ### [CV](/cv) →
 
-Technology Consulting
-----------
+Freelancing
+-----------
 
 I partner with companies to turn ambitious ideas into reality through strategic technology solutions. With deep expertise across the full stack, I help organizations navigate complex technical challenges, scale their systems, and achieve measurable business outcomes. Whether you're building from the ground up or optimizing existing infrastructure, I bring both technical depth and strategic vision to every project.
 

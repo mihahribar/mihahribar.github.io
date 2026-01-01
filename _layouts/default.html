@@ -55,11 +55,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // Theme toggle functionality
     const themeToggle = document.getElementById('theme-toggle');
     const root = document.documentElement;
-    
+
     // Check for saved theme preference or default to system preference
     const savedTheme = localStorage.getItem('theme');
     const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    
+
     // Initialize theme
     if (savedTheme) {
         root.setAttribute('data-theme', savedTheme);
@@ -71,12 +71,12 @@ document.addEventListener('DOMContentLoaded', function() {
         root.setAttribute('data-theme', 'light');
         updateToggleIcon('light');
     }
-    
+
     // Theme toggle event
     themeToggle.addEventListener('click', function() {
         const currentTheme = root.getAttribute('data-theme');
         let newTheme;
-        
+
         if (currentTheme === 'dark') {
             newTheme = 'light';
             root.setAttribute('data-theme', 'light');
@@ -84,11 +84,11 @@ document.addEventListener('DOMContentLoaded', function() {
             newTheme = 'dark';
             root.setAttribute('data-theme', 'dark');
         }
-        
+
         localStorage.setItem('theme', newTheme);
         updateToggleIcon(newTheme);
     });
-    
+
     function updateToggleIcon(theme) {
         if (theme === 'dark') {
             // Sun SVG for switching to light
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function() {
             themeToggle.setAttribute('aria-label', 'Switch to dark mode');
         }
     }
-    
+
     // Listen for system theme changes
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
         if (!localStorage.getItem('theme')) {
@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <footer>
 	<section>
 		<h2>whoami</h2>
-		<p>Hi! I'm Miha. I <a href="https://linkedin.com/in/mihahribar">consult</a>, I <a href="https://toshl.com">tinker</a>. I <a href="https://github.com/mihahribar">code</a>. I <a href="/books">read</a>.</p>
+		<p>Hi! I'm Miha. I <a href="https://linkedin.com/in/mihahribar">freelance</a>, I <a href="https://toshl.com">tinker</a>. I <a href="https://github.com/mihahribar">code</a>. I <a href="/books">read</a>.</p>
 	</section>
 	<section>
 		<h2>ls -l</h2>
