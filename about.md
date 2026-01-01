@@ -7,7 +7,7 @@ About
 =====
 
 ![](/images/me.jpg)
-I'm Miha Hribar — dad, husband, perpetual tinkerer, and technology leader, roughly in that order of importance. When I'm not chasing after my family or exploring the latest tech trends, you'll find me building solutions that matter as a consultant and CTO of [Toshl Finance](http://toshl.com).
+I'm Miha Hribar — dad, husband, perpetual tinkerer, and technology leader, roughly in that order of importance. When I'm not chasing after my family or exploring the latest tech trends, you'll find me building solutions that matter as a freelancer and CTO of [Toshl Finance](http://toshl.com).
 
 I believe the best innovations come from curiosity and hands-on experimentation. Whether it's a weekend side project or architecting enterprise systems, I approach every challenge with the same enthusiasm for elegant problem-solving. You can explore my latest experiments and contributions on [Github](https://github.com/mihahribar).
 
