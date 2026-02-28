@@ -1,13 +1,25 @@
-- title: "Vibe Coding: Building Production-Grade Software With GenAI, Chat, Agents, and Beyond"
-  author: "Gene Kim, Steve Yegge"
-  goodreads_url: "https://www.goodreads.com/book/show/228438060-vibe-coding"
-  image: "vibe-coding.jpeg"
-  year: 2025
+- title: "Dungeon Crawler Carl"
+  author: "Matt Dinniman"
+  goodreads_url: "https://www.goodreads.com/book/show/56791389-dungeon-crawler-carl"
+  image: "crawler-carl.jpeg"
+  year: 2026
+
+- title: "The Software Engineer's Guidebook: Navigating senior, tech lead, and staff engineer positions at tech companies and startups"
+  author: "Gergely Orosz"
+  goodreads_url: "https://www.goodreads.com/book/show/201545491-the-software-engineer-s-guidebook"
+  image: "sw-engineers-guidebook.jpeg"
+  year: 2026
 
 - title: "11/22/63"
   author: "Stephen King"
   goodreads_url: "https://www.goodreads.com/book/show/10644930-11-22-63"
   image: "11-22-63.jpeg"
+  year: 2026
+
+- title: "Vibe Coding: Building Production-Grade Software With GenAI, Chat, Agents, and Beyond"
+  author: "Gene Kim, Steve Yegge"
+  goodreads_url: "https://www.goodreads.com/book/show/228438060-vibe-coding"
+  image: "vibe-coding.jpeg"
   year: 2025
 
 - title: "The Dark Forest"
