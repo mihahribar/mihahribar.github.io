@@ -1,3 +1,21 @@
+- title: "Laws of Software Engineering"
+  author: "Milan Milanovic"
+  goodreads_url: "https://www.goodreads.com/book/show/251102114-laws-of-software-engineering"
+  image: "laws-of-software-engineering.jpeg"
+  year: 2026
+
+- title: "The Butcher's Masquerade"
+  author: "Matt Dinniman"
+  goodreads_url: "https://www.goodreads.com/book/show/60233239-the-butcher-s-masquerade"
+  image: "the-butchers-masquerade.jpeg"
+  year: 2026
+
+- title: "The Gate of the Feral Gods"
+  author: "Matt Dinniman"
+  goodreads_url: "https://www.goodreads.com/book/show/57905101-the-gate-of-the-feral-gods"
+  image: "the-gate-of-the-feral-gods.jpeg"
+  year: 2026
+
 - title: "The Dungeon Anarchist's Cookbook"
   author: "Matt Dinniman"
   goodreads_url: "https://www.goodreads.com/book/show/57001971-the-dungeon-anarchist-s-cookbook"
