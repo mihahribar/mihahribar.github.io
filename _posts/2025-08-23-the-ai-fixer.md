@@ -3,7 +3,7 @@ layout: post
 title: The AI Fixer
 category : AI
 tags : [AI Fixer, Vibe Coding, LLM, AI]
-description: When LLMs code unattended, they create beautiful disasters in record time. Enter the AI Winston Wolfs — specialized fixers who understand that more code means more bugs, and that someone will eventually have to be brought in to cleanup the crime scene.
+description: When LLMs code unattended, they create beautiful disasters in record time. Enter the AI Winston Wolfs - specialized fixers who understand that more code means more bugs, and that someone will eventually have to be brought in to cleanup the crime scene.
 keywords: AI Fixer, Vibe Coding, LLM, AI
 ---
 

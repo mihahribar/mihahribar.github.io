@@ -23,7 +23,7 @@ Early in 2025 Andrej Karpathy wrote a tweet that casually defined our entire fut
 At first we thought it was for prototypes. Weekend projects. One-offs. Then [Anthropic](https://www.anthropic.com) dropped [Claude Code](https://www.anthropic.com/claude-code) and suddenly it was 
 writing production code. Then agents started managing other agents. Now developers burn $100/hour on tokens and call it productivity.  
 
-The real trick isn't getting them to write code — it's pretending we still know what's happening. LLMs democratized coding, 
+The real trick isn't getting them to write code - it's pretending we still know what's happening. LLMs democratized coding, 
 made it accessible to everyone. Even your boss can ship code now.
 
 So in a way we're still debugging mistakes, they're just no longer ours.
