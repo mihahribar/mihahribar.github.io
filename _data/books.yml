@@ -1,3 +1,21 @@
+- title: "Morning Star"
+  author: "Pierce Brown"
+  goodreads_url: "https://www.goodreads.com/book/show/18966806-morning-star"
+  image: "morning-star.jpeg"
+  year: 2026
+
+- title: "Golden Son"
+  author: "Pierce Brown"
+  goodreads_url: "https://www.goodreads.com/book/show/18966819-golden-son"
+  image: "golden-son.jpeg"
+  year: 2026
+
+- title: "Red Rising"
+  author: "Pierce Brown"
+  goodreads_url: "https://www.goodreads.com/book/show/15839976-red-rising"
+  image: "red-rising.jpeg"
+  year: 2026
+
 - title: "Seven Brief Lessons on Physics"
   author: "Carlo Rovelli"
   goodreads_url: "https://www.goodreads.com/book/show/25734172-seven-brief-lessons-on-physics"
