@@ -1,3 +1,21 @@
+- title: "Story of Your Life"
+  author: "Ted Chiang"
+  goodreads_url: "https://www.goodreads.com/book/show/221833155-story-of-your-life"
+  image: "story-of-your-life.jpeg"
+  year: 2026
+
+- title: "Exit Strategy"
+  author: "Martha Wells"
+  goodreads_url: "https://www.goodreads.com/book/show/35519109-exit-strategy"
+  image: "exit-strategy.jpeg"
+  year: 2026
+
+- title: "A Short Stay in Hell"
+  author: "Steven L. Peck"
+  goodreads_url: "https://www.goodreads.com/book/show/13456414-a-short-stay-in-hell"
+  image: "a-short-stay-in-hell.jpeg"
+  year: 2026
+
 - title: "Dark Matter"
   author: "Blake Crouch"
   goodreads_url: "https://www.goodreads.com/book/show/27833670-dark-matter"
